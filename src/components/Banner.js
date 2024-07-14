@@ -14,7 +14,7 @@ const Banner = () => {
       className='min-h-[88vh] lg:min-h-[90vh] flex items-center'
     >
       <div className='container mx-auto'>
-        <div className='flex flex-col gap-y-8 lg:flex-row max-sm:flex-col-reverse max-sm:items-center max-sm:mb-20'>
+        <div className='flex flex-col-reverse  gap-y-8 lg:flex-row max-sm:items-center max-sm:mb-20'>
           <div className='flex-1 text-center font-secondary lg:text-left'>
             <motion.h1
               variants={fadeIn("up", 0.3)}
