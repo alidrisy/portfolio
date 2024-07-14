@@ -1,5 +1,6 @@
 import React from "react";
 import Logo from "../assets/logo.svg";
+import { Link } from "react-scroll";
 const Header = () => {
   return (
     <header className='py-8'>
@@ -8,7 +9,15 @@ const Header = () => {
           <a href='#'>
             <img src={Logo} className='max-md:w-[150px] ' alt='logo' />
           </a>
-          <button className='btn btn-sm'>Hire me</button>
+          <Link
+            to='contact'
+            activeClass='active'
+            smooth={true}
+            spy={true}
+            className='btn btn-sm flex justify-center items-center'
+          >
+            Hire me
+          </Link>
         </div>
       </div>
     </header>
