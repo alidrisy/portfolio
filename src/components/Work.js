@@ -68,12 +68,14 @@ const Work = () => {
           >
             {projects.map((pj) => (
               <div className='group relative overflow-hidden border-2 border-white/20 rounded-xl'>
-                <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></div>
+                <div className='group-hover:bg-black/70 w-full h-full absolute inset-0 z-40 transition-all duration-300'></div>
                 <img
                   className='group-hover:scale-125 transition-all duration-500'
                   src={pj.image}
                   alt='project1'
                 />
+              <div className="overflow-auto">
+
                 <div className='absolute -bottom-full left-12 group-hover:bottom-64 max-sm:group-hover:bottom-52 transition-all duration-500 max-sm:duration-700 text-white font-bold text-[15px] z-50'>
                   <span className='text-gradient max-sm:text-lg'>
                     {pj.category}
@@ -106,10 +108,11 @@ const Work = () => {
                     target='_blank'
                     className='btn h-9 w-9 max-sm:h-5 max-sm:w-5  transition-all duration-500 flex justify-center items-center hover:scale-110 cursor-pointer'
                     rel='noreferrer'
-                  >
+                    >
                     <FaGithub className='text-2xl max-sm:text-sm' />
                   </a>
                 </div>
+                    </div>
               </div>
             ))}
           </motion.div>

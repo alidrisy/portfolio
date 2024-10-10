@@ -78,8 +78,9 @@ const About = () => {
             <div className='hidden lg:flex gap-x-6 max-w-max mt-12 items-center mx-auto lg:mx-0'>
               <a
                 className='btn-sm btn flex justify-center items-center cursor-pointer '
-                href='https://drive.google.com/file/d/1mqBmegInAGrOZlTajf-cRHfsX-qJ3AMT'
+                href='./abdo_cv.pdf'
                 target='_blank'
+                rel='noreferrer'
                 download='Abdulrahman_Alidrisy_resume.pdf'
               >
                 See My Cv
