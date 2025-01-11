@@ -1,55 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+    />
     <meta name="theme-color" content="#000000" />
-  
-    <!-- English Meta Tags -->
-    <meta name="description" content="Explore the portfolio of AbdulRahman Adeb Mohammed Saleh Alidrisy, a professional software engineer. Discover projects, skills, and expertise in web development, software engineering, and more." />
-    <meta name="keywords" content="AbdulRahman Alidrisy, software engineer, web development, portfolio, programming, projects, skills" />
-    <meta name="author" content="AbdulRahman Adeb Mohammed Saleh Alidrisy" />
 
-    <!-- Arabic Meta Tags -->
-    <meta name="description" lang="ar" content="استكشف ملف عبد الرحمن أدب محمد صالح الإدريسي، مهندس برمجيات محترف. اكتشف المشاريع والمهارات والخبرات في تطوير الويب وهندسة البرمجيات والمزيد." />
-    <meta name="keywords" lang="ar" content="عبد الرحمن الإدريسي, مهندس برمجيات, تطوير ويب, ملف شخصي, برمجة, مشاريع, مهارات" />
-    <meta name="author" lang="ar" content="عبد الرحمن أدب محمد صالح الإدريسي" />
-  
-    <!-- SEO Indexing -->
-    <meta name="robots" content="index, follow" />
-    <!-- Open Graph meta tags for social media -->
-    <meta property="og:title" content="AbdulRahman Alidrisy Portfolio" />
-    <meta property="og:description" content="Explore the portfolio of AbdulRahman Adeb Mohammed Saleh Alidrisy, a professional software engineer. Discover projects, skills, and expertise in web development, software engineering, and more." />
-    <meta property="og:image" content="https://www.aalidrisy.tech/static/media/avatar.18e9abb40641cf6b1887.png" />
-    <meta property="og:url" content="https://aalidrisy.tech" />
+    <!-- SEO Meta Tags with Expanded Descriptions -->
+    <meta
+      name="description"
+      content="Welcome to the official online portfolio and professional blog of Abdulrahman Alidrisy, an experienced full-stack developer specializing in modern web technologies such as React, Node.js, JavaScript, TypeScript, and Mongoose. Explore his diverse range of skills in database management, web and mobile application development, real-time communication with Socket.IO, and cutting-edge error handling techniques. Abdulrahman’s portfolio showcases his expertise in web development, software engineering, cloud computing, and system design. Discover his innovative projects, professional insights, and career milestones in the field of software development."
+    />
+    <meta
+      name="keywords"
+      content="Abdulrahman Alidrisy, Abdulrahman Al Idrisi, full-stack developer, web developer, portfolio, blog, React, Node.js, JavaScript, TypeScript, Mongoose, real-time communication, Socket.IO, database management, cloud computing, error handling, software engineering, web application development, mobile app development, Flutter, React Native, professional portfolio"
+    />
+    <meta name="author" content="Abdulrahman Adeb Alidrisy" />
+
+    <!-- Arabic Meta Tags with Expanded Descriptions -->
+    <meta
+      name="description"
+      lang="ar"
+      content="استكشف الملف الشخصي الرسمي والمدونة المهنية لعبد الرحمن أديب محمد صالح الإدريسي، مهندس برمجيات متخصص في تطوير الويب وتطبيقات الهاتف المحمول باستخدام تقنيات حديثة مثل React و Node.js و JavaScript و TypeScript. اكتشف مهاراته المتنوعة في إدارة قواعد البيانات، تطوير تطبيقات الويب والموبايل، التواصل الفوري باستخدام Socket.IO، وتقنيات التعامل مع الأخطاء المتطورة. يقدم عبد الرحمن في ملفه الشخصي مجموعة من المشاريع المبتكرة والرؤى المهنية التي تعكس تطور مسيرته في مجال تطوير البرمجيات والهندسة السحابية."
+    />
+    <meta
+      name="keywords"
+      lang="ar"
+      content="عبد الرحمن الادريسي, مهندس برمجيات, تطوير ويب, تطوير تطبيقات, ملف شخصي, برمجة, تطوير موبايل, React, Node.js, JavaScript, TypeScript, Mongoose, إدارة قواعد البيانات, التواصل الفوري, Flutter, React Native, معالج الأخطاء, البرمجة السحابية"
+    />
+    <meta
+      name="author"
+      lang="ar"
+      content="عبد الرحمن أديب محمد صالح الإدريسي"
+    />
+
+    <!-- SEO Indexing and Crawling Settings -->
+    <meta
+      name="robots"
+      content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+    />
+
+    <!-- Open Graph Meta Tags for Social Media Optimization -->
+    <meta
+      property="og:title"
+      content="Abdulrahman Alidrisy - Full-Stack Developer Portfolio, Blog, and Professional Insights"
+    />
+    <meta
+      property="og:description"
+      content="Explore the professional portfolio and blog of Abdulrahman Alidrisy, a full-stack developer with expertise in React, Node.js, TypeScript, and Mongoose. His work spans web and mobile application development, real-time communication, cloud computing, and advanced error handling."
+    />
+    <meta property="og:image" content="https://alidrisy.software/avatar.png" />
+    <meta property="og:url" content="https://alidrisy.software" />
     <meta property="og:type" content="website" />
-    <!-- Twitter Card meta tags -->
-    <meta name="twitter:card" content="https://x.com/AbdulrahmanAdeb/header_photo" />
-    <meta name="twitter:title" content="AbdulRahman Alidrisy Portfolio" />
-    <meta name="twitter:description" content="Explore the portfolio of AbdulRahman Adeb Mohammed Saleh Alidrisy, a professional software engineer. Discover projects, skills, and expertise in web development, software engineering, and more." />
-    <meta name="twitter:image" content="https://x.com/AbdulrahmanAdeb/photo" />
-    <!-- google fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Aldrich&family=Orbitron:wght@400;500;600;700;800;900&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
-    <title>AbdulRahman Alidrisy Portfolio</title>
-    <!-- google fonts -->
+    <meta
+      property="og:site_name"
+      content="Abdulrahman Alidrisy - Full-Stack Developer"
+    />
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Abdulrahman Alidrisy - Full-Stack Developer Portfolio and Blog"
+    />
+    <meta
+      name="twitter:description"
+      content="Discover Abdulrahman Alidrisy's expertise in software engineering, web development, and mobile application development using technologies like React, Node.js, TypeScript, and more."
+    />
+    <meta name="twitter:image" content="https://alidrisy.software/avatar.png" />
+    <meta name="twitter:site" content="@AbdulrahmanAdeb" />
+    <meta name="twitter:creator" content="@AbdulrahmanAdeb" />
+
+    <!-- Google Fonts Integration for Custom Typography -->
     <link
       href="https://fonts.googleapis.com/css2?family=Aldrich&family=Orbitron:wght@400;500;600;700;800;900&family=Rajdhani:wght@300;400;500;600;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="icon" href="./avatar.png" type="image/x-icon" />
+
+    <!-- Title Tag with Expanded Keywords for SEO -->
+    <title>
+      Abdulrahman Alidrisy - Full-Stack Developer, Software Engineer, and
+      Professional Portfolio
+    </title>
+
+    <!-- Favicon for Branding -->
+    <link
+      rel="icon"
+      href="https://alidrisy.software/avatar.png"
+      type="image/x-icon"
+    />
+
+    <!-- Performance Enhancements: Preconnect and DNS Prefetch -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
   </head>
+
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <noscript>
+      <strong>Warning:</strong> This website requires JavaScript to function
+      properly. Please enable JavaScript in your browser settings.
+    </noscript>
+
+    <!-- Main Content Root (React or Other Framework) -->
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
   </body>
 </html>
