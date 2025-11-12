@@ -29,12 +29,12 @@ export const pageMetadata = {
         'Experienced full-stack developer creating innovative web solutions. React • Next.js • Python • Node.js • DevOps',
     },
     ar: {
-      title: 'عبدالرحمن الإدريسي - ملف مطور متكامل',
+      title: 'عبدالرحمن الإدريسي - ملف مهندس برمجيات',
       description:
         'مهندس برمجيات متكامل متخصص في React و Next.js و Python و Node.js. خبرة +2 سنة في بناء تطبيقات ويب قابلة للتوسع بالرياض.',
       ogTitle: 'عبدالرحمن الإدريسي - مطور فول ستاك',
       ogDescription:
-        'مطور متكامل ذو خبرة يبني حلول ويب مبتكرة. React • Next.js • Python • Node.js • DevOps',
+        'مهندس برمجيات ذو خبرة يبني حلول ويب مبتكرة. React • Next.js • Python • Node.js • DevOps',
     },
   },
   about: {
@@ -101,10 +101,10 @@ export const pageMetadata = {
         'Reach out for project inquiries, collaboration, or consulting. Remote-friendly, available globally from Saudi Arabia.',
     },
     ar: {
-      title: 'تواصل - استأجر عبدالرحمن الإدريسي | مطور متكامل',
+      title: 'تواصل - استأجر عبدالرحمن الإدريسي | مهندس برمجيات',
       description:
         'تواصل لمشاريع التطوير المتكامل أو الاستشارات أو التعاون. مقيم بالرياض، متوفر للعمل البعيد حول العالم.',
-      ogTitle: 'تواصل - مطور متكامل للاستئجار',
+      ogTitle: 'تواصل - مهندس برمجيات للاستئجار',
       ogDescription:
         'تواصل لاستفسارات المشاريع أو التعاون أو الاستشارات. متوفر للعمل البعيد من جميع أنحاء العالم.',
     },
@@ -132,7 +132,7 @@ export const keywordMap = {
       'hire developer riyadh',
     ],
     ar: [
-      'مطور متكامل',
+      'مهندس برمجيات',
       'مهندس برمجيات',
       'مطور React',
       'مطور Next.js',

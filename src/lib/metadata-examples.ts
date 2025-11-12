@@ -27,11 +27,11 @@ export const HOME_PAGE_META = {
     ogImage: 'https://www.alidrisy.com/og-image.png',
   },
   ar: {
-    title: 'عبدالرحمن الإدريسي - ملف مطور متكامل',
+    title: 'عبدالرحمن الإدريسي - ملف مهندس برمجيات',
     description:
       'مهندس برمجيات متكامل متخصص في React و Next.js و Python و Node.js. خبرة +2 سنة في بناء تطبيقات ويب قابلة للتوسع بالرياض.',
     keywords: [
-      'مطور متكامل',
+      'مهندس برمجيات',
       'مهندس برمجيات',
       'مطور React',
       'مطور Next.js',
@@ -40,7 +40,7 @@ export const HOME_PAGE_META = {
     ],
     ogTitle: 'عبدالرحمن الإدريسي - مطور فول ستاك',
     ogDescription:
-      'مطور متكامل ذو خبرة يبني حلول ويب مبتكرة. React • Next.js • Python • Node.js • DevOps',
+      'مهندس برمجيات ذو خبرة يبني حلول ويب مبتكرة. React • Next.js • Python • Node.js • DevOps',
     ogUrl: 'https://www.alidrisy.com/ar',
     ogImage: 'https://www.alidrisy.com/og-image.png',
   },
@@ -78,7 +78,7 @@ export const ABOUT_PAGE_META = {
       'السيرة الذاتية',
       'الخبرة',
       'المهارات',
-      'مطور متكامل',
+      'مهندس برمجيات',
       'ملف مهندس برمجيات',
     ],
     ogTitle: 'معلومات عبدالرحمن الإدريسي',
@@ -199,7 +199,7 @@ export const CONTACT_PAGE_META = {
     ogImage: 'https://www.alidrisy.com/og-image.png',
   },
   ar: {
-    title: 'تواصل - استأجر عبدالرحمن الإدريسي | مطور متكامل',
+    title: 'تواصل - استأجر عبدالرحمن الإدريسي | مهندس برمجيات',
     description:
       'تواصل لمشاريع التطوير المتكامل أو الاستشارات أو التعاون. مقيم بالرياض، متوفر للعمل البعيد حول العالم.',
     keywords: [
@@ -210,7 +210,7 @@ export const CONTACT_PAGE_META = {
       'استفسار مشروع',
       'مطور فريلانس',
     ],
-    ogTitle: 'تواصل - مطور متكامل للاستئجار',
+    ogTitle: 'تواصل - مهندس برمجيات للاستئجار',
     ogDescription:
       'تواصل لاستفسارات المشاريع أو التعاون أو الاستشارات. متوفر للعمل البعيد من جميع أنحاء العالم.',
     ogUrl: 'https://www.alidrisy.com/ar/contact',
