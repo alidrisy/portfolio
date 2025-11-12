@@ -17,13 +17,13 @@ export function ContactPreview() {
   ];
 
   return (
-    <section id="contact" className="py-12 sm:py-16 lg:section">
+    <section id="contact" className="section">
       <div className="container mx-auto px-4">
         <motion.div
           variants={fadeIn('right', 0.3)}
           initial="hidden"
           whileInView="show"
-          viewport={{ once: false, amount: 0.3 }}
+          viewport={{ once: true, amount: 0.3 }}
           className="flex-1 flex justify-start items-center"
         >
           <div className="w-full">

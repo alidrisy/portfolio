@@ -1,7 +1,8 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { ReactNode } from 'react';
+import { ReactNode, useEffect, useState } from 'react';
+import { usePathname } from 'next/navigation';
 import { staggerContainer } from '@/lib/motion';
 import { cn } from '@/lib/utils';
 
@@ -18,12 +19,26 @@ export function StaggerList({
   staggerDelay = 0.1,
   initialDelay = 0,
 }: StaggerListProps) {
+  const pathname = usePathname();
+  const [isVisible, setIsVisible] = useState(true);
+  
+  useEffect(() => {
+    // Reset animation state on route change
+    setIsVisible(false);
+    // Small delay to ensure the component is mounted and ready
+    const timer = setTimeout(() => {
+      setIsVisible(true);
+    }, 150);
+    
+    return () => clearTimeout(timer);
+  }, [pathname]);
+  
   return (
     <motion.div
+      key={`${pathname}-stagger`}
       variants={staggerContainer(staggerDelay, initialDelay)}
       initial="hidden"
-      whileInView="show"
-      viewport={{ once: false, amount: 0.25 }}
+      animate={isVisible ? "show" : "hidden"}
       className={cn(className)}
     >
       {children}

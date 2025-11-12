@@ -18,14 +18,14 @@ export function ServicesPreview() {
   ].slice(0, 3);
 
   return (
-    <section id="services" className="section min-h-[90vh]">
+    <section id="services" className="section">
       <div className="container mx-auto px-4">
         <div className={`flex flex-col lg:flex-row ${locale === "ar" ? "lg:space-x-reverse lg:space-x-10" : "lg:space-x-10"}`}>
           <motion.div
             variants={fadeIn('right', 0.3)}
             initial="hidden"
             whileInView="show"
-            viewport={{ once: false, amount: 0.3 }}
+            viewport={{ once: true, amount: 0.3 }}
             className="mb-12 lg:mb-0 flex-1"
           >
             <h2 className={`h2 max-sm:text-[35px] font-bold text-accent mb-6 max-sm:mb-3 ${locale === "ar" ? "font-kufi" : ""}`}>
@@ -43,7 +43,7 @@ export function ServicesPreview() {
             variants={fadeIn('left', 0.5)}
             initial="hidden"
             whileInView="show"
-            viewport={{ once: false, amount: 0.3 }}
+            viewport={{ once: true, amount: 0.3 }}
             className="flex-1"
           >
             <div>

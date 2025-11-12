@@ -19,14 +19,14 @@ export function AboutPreview() {
     ];
 
     return (
-        <section id="about" className="section min-h-[90vh]">
+        <section id="about" className="section">
             <div className="container mx-auto">
                 <div className="flex flex-col gap-y-10">
                     <motion.div
                         variants={fadeIn('left', 0.4)}
                         initial="hidden"
                         whileInView="show"
-                        viewport={{ once: false, amount: 0.7 }}
+                        viewport={{ once: true, amount: 0.7 }}
                         className="flex-1"
                     >
                         <h2 className={`h2 text-3xl sm:text-4xl lg:text-[50px] text-accent font-bold mb-4 sm:mb-6 ${locale === "ar" ? "font-kufi" : ""}`}>
@@ -43,7 +43,7 @@ export function AboutPreview() {
                                     key={index}
                                     initial={{ opacity: 0, scale: 0.5 }}
                                     whileInView={{ opacity: 1, scale: 1 }}
-                                    viewport={{ once: false, amount: 0.7 }}
+                                    viewport={{ once: true, amount: 0.7 }}
                                     transition={{ delay: 0.5 + index * 0.1, type: 'spring' }}
                                 >
                                     <div className="text-3xl sm:text-4xl lg:text-[45px] font-tertiary text-gradient mb-1 sm:mb-2">
@@ -66,7 +66,7 @@ export function AboutPreview() {
                             variants={fadeIn('up', 0.8)}
                             initial="hidden"
                             whileInView="show"
-                            viewport={{ once: false, amount: 0.7 }}
+                            viewport={{ once: true, amount: 0.7 }}
                             className="mt-8 sm:mt-12"
                         >
                             <Link

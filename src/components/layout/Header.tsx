@@ -24,12 +24,12 @@ export function Header() {
       variants={fadeIn('down', 0.2)}
       initial="hidden"
       animate="show"
-      className="py-8 sticky top-0 z-50 "
+      className="py-4 sm:py-8 sticky top-0 z-50 "
     >
       <div className="container mx-auto">
         <div className="flex justify-between items-center">
-          <Link href={locale + '/'} className="text-2xl font-bold font-primary text-gradient">
-            <Logo />
+          <Link href={locale + '/'} className='w-32 -mr-10'>
+           <Logo className="w-32 h-8" />
           </Link>
 
           <div className="flex items-center gap-6">

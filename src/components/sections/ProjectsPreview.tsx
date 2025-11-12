@@ -40,7 +40,7 @@ export function ProjectsPreview() {
             {projects.map((project: any, index: number) => (
               <motion.div
                 key={index}
-                className="group relative overflow-hidden border-2 border-white/20 rounded-xl min-h-[300px] sm:min-h-[350px] lg:min-h-[400px]"
+                className="group relative overflow-hidden border-2 border-white/20 rounded-xl min-h-[200px] sm:min-h-[350px] lg:min-h-[400px]"
                 whileHover={{ scale: 1.02 }}
                 transition={{ duration: 0.3 }}
               >

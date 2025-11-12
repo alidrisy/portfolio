@@ -22,7 +22,7 @@ export const fadeIn = (
       },
     },
   };
-};
+}; // One-time animation
 
 export const staggerContainer = (
   staggerChildren: number = 0.1,
