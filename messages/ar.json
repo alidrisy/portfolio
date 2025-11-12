@@ -179,13 +179,13 @@
     "list": [
       {
         "num": "01",
-        "slug": "homaapp",
+        "slug": "homa",
         "category": "متكامل",
-        "title": "HomaApp",
+        "title": "Homa",
         "description": "منصة عقارات فاخرة جاهزة للإنتاج بُنيت من الصفر لشركة HOMA. تتميز بالمراسلة الفورية عبر Pusher، إشعارات الدفع عبر Firebase، وتصميم متجاوب بالكامل محسّن للأداء على جميع الأجهزة.",
         "stack": "Next.js, React, TypeScript, Tailwind CSS, React Query, Pusher, Firebase, Docker",
         "image": "/images/homa.png",
-        "live": "#",
+        "live": "https://homaapp.com",
         "github": "#",
         "problem": "احتاجت HOMA إلى منصة عقارات فاخرة حديثة وقابلة للتوسع يمكنها التعامل مع التفاعلات في الوقت الفعلي، وتوفير تجربة مستخدم سلسة، وتكون جاهزة للإنتاج بأداء مثالي.",
         "solution": "بنيت منصة شاملة باستخدام Next.js و React مع ميزات الوقت الفعلي عبر Pusher و Firebase. نفذت تصميمًا متجاوبًا يركز على الهاتف المحمول، وحاويات Docker للنشر القابل للتوسع، وحسّنت الأداء من خلال تقسيم الكود والتحميل الكسول.",

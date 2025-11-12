@@ -179,9 +179,9 @@
     "list": [
       {
         "num": "01",
-        "slug": "homaapp",
+        "slug": "homa",
         "category": "Full-Stack",
-        "title": "HomaApp",
+        "title": "Homa",
         "description": "A production-ready luxury property platform built from scratch for HOMA. Features real-time messaging with Pusher, push notifications via Firebase, and a fully responsive design optimized for performance across all devices.",
         "stack": "Next.js, React, TypeScript, Tailwind CSS, React Query, Pusher, Firebase, Docker",
         "image": "/images/homa.png",

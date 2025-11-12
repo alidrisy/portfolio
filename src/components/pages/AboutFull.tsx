@@ -183,7 +183,7 @@ export function AboutFull() {
             <Download className="w-5 h-5" />
             {tCommon('seeCV')}
           </a>
-          <Link href={`${locale}/contact`} className="text-gradient text-xl font-semibold btn-link">
+          <Link href={`/${locale}/contact`} className="text-gradient text-xl font-semibold btn-link">
             {tCommon('connectWithMe')}
           </Link>
         </motion.div>
