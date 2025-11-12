@@ -29,7 +29,7 @@ export function Header() {
       <div className="container mx-auto">
         <div className="flex justify-between items-center">
           <Link href={locale + '/'} className='w-32 -mr-10'>
-           <Logo className="w-32 h-8" />
+           <Logo className="w-32 h-8 sm:w-52 sm:h-16" />
           </Link>
 
           <div className="flex items-center gap-6">
