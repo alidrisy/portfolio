@@ -177,7 +177,7 @@ export const organizationStructuredData = {
   name: 'Alidrisy Software',
   alternateName: 'Abdulrahman Alidrisy Software',
   url: 'https://www.alidrisy.com',
-  logo: 'https://www.alidrisy.com/logo.png',
+  logo: 'https://www.alidrisy.com/icon.svg',
   description:
     'Professional full-stack web development services specializing in React, Next.js, Python, Node.js, and cloud infrastructure. Delivering scalable, secure, and high-performance applications for businesses in the GCC region.',
   founder: {

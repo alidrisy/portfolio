@@ -190,8 +190,8 @@ export default async function LocaleLayout({
         <link rel="preconnect" href="https://www.alidrisy.com" />
 
         {/* Favicon & App Icons */}
-        <link rel="icon" href="/logo.png" />
-        <link rel="apple-touch-icon" href="/logo.png" />
+        <link rel="icon" href="/icon.svg" />
+        <link rel="apple-touch-icon" href="/icon.svg" />
 
         {/* Canonical URL */}
         <link rel="canonical" href={`https://www.alidrisy.com/${locale}`} />

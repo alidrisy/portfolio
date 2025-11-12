@@ -6,6 +6,7 @@ import { motion } from 'framer-motion';
 import { Languages } from 'lucide-react';
 import { fadeIn } from '@/lib/motion';
 import Link from 'next/link';
+import Logo from './Logo';
 
 export function Header() {
   const t = useTranslations('nav');
@@ -27,8 +28,8 @@ export function Header() {
     >
       <div className="container mx-auto">
         <div className="flex justify-between items-center">
-          <Link href={locale + '/'} className="text-2xl font-primary font-bold text-gradient">
-            Abdulrahman
+          <Link href={locale + '/'} className="text-2xl font-bold font-primary text-gradient">
+            <Logo />
           </Link>
 
           <div className="flex items-center gap-6">
