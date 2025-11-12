@@ -1,0 +1,282 @@
+{
+  "common": {
+    "seeCV": "See My CV",
+    "connectWithMe": "Connect With Me",
+    "seeAllProjects": "See All Projects",
+    "seeMyWork": "See My Work",
+    "sendMessage": "Send message",
+    "details": "Details",
+    "liveDemo": "Live Demo",
+    "code": "Code",
+    "viewAllOnGitHub": "View All on GitHub",
+    "messageSent": "Message sent!",
+    "sending": "Sending...",
+    "somethingWentWrong": "Something went wrong",
+    "error": "Error",
+    "success": "Success"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "projects": "Projects",
+    "contact": "Contact",
+    "hireme": "Hire Me"
+  },
+  "hero": {
+    "name": "Abdulrahman Alidrisy",
+    "iAm": "I am a",
+    "roles": {
+      "frontend": "Frontend Developer",
+      "backend": "Backend Developer",
+      "fullstack": "Fullstack Developer"
+    },
+    "description": "A dedicated software engineer with a passion for building robust and scalable applications. I strive to create innovative solutions that meet user needs and drive business success."
+  },
+  "about": {
+    "title": "About Me",
+    "subtitle": "Versatile Full Stack Software Engineer with 2+ years of experience delivering end-to-end web applications using modern technologies.",
+    "description": "I specialize in backend development with Python (FastAPI, Flask, Django) and Node.js, combined with strong frontend skills in React, Next.js, and TypeScript. My expertise spans both SQL and NoSQL databases, DevOps practices, and agile methodologies.",
+    "learnMore": "Learn More",
+    "stats": {
+      "experience": "Years of Experience",
+      "repos": "GitHub Repositories",
+      "technologies": "Technologies Mastered",
+      "commits": "Code Commits"
+    },
+    "fullBio": "Currently, I work as a Frontend Developer and Backend/Product Consultant at HOMA in Riyadh, leading the development of HomaApp — a production-ready luxury property platform built from scratch using Next.js, React, Tailwind CSS, and React Query. I serve as a technical bridge between frontend and backend, advising on architecture improvements, API design, and product strategy to align technical decisions with business goals.",
+    "achievements": "Key Achievements",
+    "achievementsList": [
+      {
+        "metric": "40%",
+        "description": "Reduced API latency through backend optimization and efficient query design"
+      },
+      {
+        "metric": "35%",
+        "description": "Improved UI performance with code splitting, lazy loading, and optimization"
+      },
+      {
+        "metric": "50%",
+        "description": "Cut deployment times through automated CI/CD pipelines with GitHub Actions"
+      },
+      {
+        "metric": "99.9%",
+        "description": "Increased system uptime by implementing comprehensive logging and monitoring"
+      }
+    ],
+    "expertise": "Technical Expertise",
+    "expertiseAreas": [
+      {
+        "category": "Frontend",
+        "skills": "React.js, Next.js, React Native, TypeScript, JavaScript, Tailwind CSS, daisyUI"
+      },
+      {
+        "category": "Backend",
+        "skills": "Python (FastAPI, Flask, Django), Node.js, Express.js, RESTful APIs, GraphQL"
+      },
+      {
+        "category": "Databases",
+        "skills": "PostgreSQL, MySQL, MongoDB, Redis"
+      },
+      {
+        "category": "DevOps",
+        "skills": "Docker, Kubernetes, CI/CD, GitHub Actions, Nginx, Linux/Bash"
+      }
+    ],
+    "journey": "My Journey",
+    "scrollHint": "Scroll to explore",
+    "timeline": [
+      {
+        "year": "2023",
+        "title": "ALX Software Engineering Program",
+        "description": "Completed an intensive program focused on algorithms, data structures, system design, and hands-on DevOps applications."
+      },
+      {
+        "year": "2024",
+        "title": "Software Engineer - Bin Sammar Trading",
+        "description": "Led full-stack development using TypeScript, React, and Express.js. Built backend services with Python (FastAPI, Flask), integrated PostgreSQL and MongoDB, and managed CI/CD pipelines."
+      },
+      {
+        "year": "Jan-Apr 2024",
+        "title": "Software Engineer - Ijar Rental Platform",
+        "description": "Collaborated on a MERN stack car rental application processing 1,000+ monthly transactions. Developed backend infrastructure, built responsive React components, and managed all DevOps tasks."
+      },
+      {
+        "year": "Apr-Aug 2024",
+        "title": "ALX ProDev Back-End Programme",
+        "description": "Intensive 4-month professional training on building scalable backend systems, RESTful and GraphQL APIs, Docker containerization, Kubernetes orchestration, and Nginx configuration."
+      },
+      {
+        "year": "Feb 2025",
+        "title": "Frontend Developer & Consultant - HOMA",
+        "description": "Leading frontend development for HomaApp using Next.js and React. Serving as backend and product consultant, guiding architecture improvements, API design, and integration with production systems."
+      }
+    ]
+  },
+  "services": {
+    "title": "Services",
+    "subtitle": "Full-stack development expertise delivering scalable, secure, and high-performance web applications using modern technologies.",
+    "processLabel": "Development Process",
+    "scrollHint": "Scroll to explore",
+    "list": [
+      {
+        "num": "01",
+        "title": "Frontend Development",
+        "description": "Modern, responsive, and accessible interfaces built with React, Next.js, and TypeScript — optimized for performance and user experience.",
+        "details": "Production-grade frontends are developed using React, Next.js, and TypeScript with Tailwind CSS for responsive and elegant design. Real-time interactions are enabled through Pusher and Firebase, supported by code-splitting, lazy loading, and accessibility standards. Each interface is optimized for speed, usability, and visual consistency across all devices and browsers.",
+        "process": [
+          "UI/UX Design & Planning",
+          "Component Architecture",
+          "State Management",
+          "Performance Optimization",
+          "Testing & Deployment"
+        ]
+      },
+      {
+        "num": "02",
+        "title": "Backend Development",
+        "description": "Scalable, secure, and maintainable server-side systems using Python (FastAPI, Django) and Node.js with clean architecture principles.",
+        "details": "Backend solutions are designed with Python (FastAPI, Django, Flask) and Node.js (Express.js) following modular and scalable patterns. RESTful and GraphQL APIs are implemented with authentication (JWT) and authorization layers, supported by caching and asynchronous processing for optimal performance and reliability.",
+        "process": [
+          "System Architecture Design",
+          "API & Service Development",
+          "Authentication & Security",
+          "Performance Optimization",
+          "Monitoring & Maintenance"
+        ]
+      },
+      {
+        "num": "03",
+        "title": "API & Database Architecture",
+        "description": "Efficient API design and optimized database schemas ensuring reliability, scalability, and fast data access.",
+        "details": "RESTful and GraphQL APIs are designed with clear documentation, versioning, and validation layers. Database architectures leverage PostgreSQL, MySQL, MongoDB, and Redis with indexing and query optimization techniques to enhance performance, reduce latency, and maintain data integrity across systems.",
+        "process": [
+          "API Design & Documentation",
+          "Database Schema Design",
+          "Query Optimization",
+          "Data Integration & Migration",
+          "Performance Tuning"
+        ]
+      },
+      {
+        "num": "04",
+        "title": "DevOps & Cloud Infrastructure",
+        "description": "Automated deployments, cloud scalability, and continuous delivery pipelines ensuring reliability and uptime.",
+        "details": "Deployment pipelines are automated using Docker and Kubernetes for containerization and orchestration. GitHub Actions powers CI/CD workflows, with Nginx configured for load balancing and reverse proxying. Infrastructure-as-Code principles ensure reproducibility, while monitoring and alerting systems maintain 99.9% uptime and efficient resource utilization.",
+        "process": [
+          "Containerization & Orchestration",
+          "CI/CD Pipeline Setup",
+          "Infrastructure Configuration",
+          "Monitoring & Logging",
+          "Scaling & Optimization"
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "title": "My Latest Work",
+    "subtitle": "I worked on various projects that involve building full-stack applications. I'm always looking for opportunities to collaborate with talented developers and teams.",
+    "list": [
+      {
+        "num": "01",
+        "slug": "homaapp",
+        "category": "Full-Stack",
+        "title": "HomaApp",
+        "description": "A production-ready luxury property platform built from scratch for HOMA. Features real-time messaging with Pusher, push notifications via Firebase, and a fully responsive design optimized for performance across all devices.",
+        "stack": "Next.js, React, TypeScript, Tailwind CSS, React Query, Pusher, Firebase, Docker",
+        "image": "/images/homa.png",
+        "live": "https://homaapp.com",
+        "github": "#",
+        "problem": "HOMA needed a modern, scalable luxury property platform that could handle real-time interactions, provide seamless user experience, and be production-ready with optimal performance.",
+        "solution": "Built a comprehensive platform using Next.js and React with real-time features via Pusher and Firebase. Implemented mobile-first responsive design, containerized with Docker for scalable deployment, and optimized performance through code splitting and lazy loading.",
+        "impact": "Delivered a production-ready platform with real-time capabilities, improved user engagement through instant notifications, and ensured 40% faster deployment through containerization."
+      },
+      {
+        "num": "02",
+        "slug": "ijar",
+        "category": "Full-Stack",
+        "title": "Ijar",
+        "description": "Ijar simplifies rentals, whether you're sharing your car or need one. If your car's idle and you want extra cash, or you need a ride for the weekend, Ijar connects owners and renters easily, making the process effortless.",
+        "stack": "Express.js, React, MongoDB, Node.js, ShadCN, PayPal API, Tailwind CSS",
+        "image": "/images/ijar1.png",
+        "live": "https://ijar.tech",
+        "github": "https://github.com/alidrisy/ijar",
+        "problem": "Car rental processes are often complicated, expensive, and time-consuming. Many car owners have idle vehicles while renters struggle to find affordable, convenient options.",
+        "solution": "Ijar provides a peer-to-peer car rental platform that connects car owners with renters directly, eliminating middlemen and reducing costs. The platform features secure payments via PayPal, real-time availability, and user verification.",
+        "impact": "Simplified the rental process, reduced costs by 30%, and created a new income stream for car owners. The platform processes 1,000+ monthly transactions and has facilitated hundreds of successful rentals."
+      },
+      {
+        "num": "03",
+        "slug": "awamer-website",
+        "category": "Full-Stack",
+        "title": "Awamer Website Development",
+        "description": "Developed a comprehensive website for Awamer for Communications & IT, showcasing their services in cybersecurity, software development, and IT consulting. Full-stack development with modern UX/UI design and enhanced user experience.",
+        "stack": "Next.js, React.js, TypeScript, Tailwind CSS, shadCn, Motion.dev",
+        "image": "/images/awamer.jpeg",
+        "live": "https://awamer.sa",
+        "github": "#",
+        "problem": "Awamer needed a modern, professional website to showcase their comprehensive IT services including cybersecurity, software development, and IT consulting to potential clients.",
+        "solution": "Built a full-stack website using Next.js and React with modern UX/UI design principles. Integrated shadCn components and Motion.dev for smooth animations, implemented responsive design with Tailwind CSS, and optimized for performance and SEO.",
+        "impact": "Delivered a professional, high-performance website that effectively showcases Awamer's services, improves client engagement, and establishes strong online presence in the IT consulting market."
+      },
+      {
+        "num": "04",
+        "slug": "audiotube",
+        "category": "Full-Stack",
+        "title": "AudioTube",
+        "description": "AudioTube makes listening to YouTube content effortless. Stream or download YouTube videos as audio, saving data and storage space. Ideal for music, podcasts, AudioTube works seamlessly even with slow internet.",
+        "stack": "React, Tailwind CSS, Python, Flask, YouTubeDL, FFmpeg",
+        "image": "/images/portfolio-img2.png",
+        "live": "https://github.com/alidrisy/AudioTube.1.2",
+        "github": "https://github.com/alidrisy/AudioTube.1.2",
+        "problem": "Users want to listen to YouTube content without video, but downloading entire videos wastes data and storage. Existing solutions are often complicated or require subscriptions.",
+        "solution": "AudioTube extracts audio from YouTube videos on-demand, allowing users to stream or download audio-only files. Built with Python Flask backend and React frontend, it uses YouTubeDL and FFmpeg for efficient audio extraction.",
+        "impact": "Reduced data usage by up to 80%, saved storage space, and provided a free alternative to premium services. Users can enjoy content offline without video overhead."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Get in touch",
+    "subtitle": "let's work together!",
+    "getInTouch": "Get in Touch",
+    "description": "I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision. Feel free to reach out!",
+    "form": {
+      "name": "Your name",
+      "email": "Your email",
+      "message": "Your message",
+      "send": "Send"
+    },
+    "info": {
+      "phone": "Phone",
+      "email": "Email",
+      "address": "Address"
+    },
+    "details": {
+      "phone": "(+966) 571 010 226",
+      "email": "a.alidrisy6@gmail.com",
+      "address": "Riyadh, Saudi Arabia"
+    }
+  },
+  "metadata": {
+    "home": {
+      "title": "Abdulrahman Alidrisy - Full-Stack Developer Portfolio",
+      "description": "Welcome to the portfolio of Abdulrahman Alidrisy, an experienced full-stack developer specializing in React, Node.js, and modern web technologies."
+    },
+    "about": {
+      "title": "About - Abdulrahman Alidrisy",
+      "description": "Learn more about Abdulrahman Alidrisy's background, skills, and experience in software engineering and full-stack development."
+    },
+    "services": {
+      "title": "Services - Abdulrahman Alidrisy",
+      "description": "Full-stack development services including frontend development with React and Next.js, backend development with Python and Node.js, API and database architecture, and DevOps cloud infrastructure."
+    },
+    "projects": {
+      "title": "Projects - Abdulrahman Alidrisy",
+      "description": "View the portfolio of projects built by Abdulrahman Alidrisy, showcasing full-stack applications and innovative solutions."
+    },
+    "contact": {
+      "title": "Contact - Abdulrahman Alidrisy",
+      "description": "Get in touch with Abdulrahman Alidrisy for collaboration opportunities, project inquiries, or professional connections."
+    }
+  }
+}

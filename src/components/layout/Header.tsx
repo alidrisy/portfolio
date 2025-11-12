@@ -1,0 +1,58 @@
+'use client';
+
+import { useTranslations, useLocale } from 'next-intl';
+import { usePathname } from 'next/navigation';
+import { motion } from 'framer-motion';
+import { Languages } from 'lucide-react';
+import { fadeIn } from '@/lib/motion';
+import Link from 'next/link';
+
+export function Header() {
+  const t = useTranslations('nav');
+  const locale = useLocale();
+  const pathname = usePathname();
+
+  const toggleLocale = () => {
+    const newLocale = locale === 'ar' ? 'en' : 'ar';
+    const currentPath = pathname.replace(`/${locale}`, '');
+    return `/${newLocale}${currentPath}`;
+  };
+
+  return (
+    <motion.header
+      variants={fadeIn('down', 0.2)}
+      initial="hidden"
+      animate="show"
+      className="py-8 sticky top-0 z-50 "
+    >
+      <div className="container mx-auto">
+        <div className="flex justify-between items-center">
+          <Link href={locale + '/'} className="text-2xl font-primary font-bold text-gradient">
+            Abdulrahman
+          </Link>
+
+          <div className="flex items-center gap-6">
+            <Link
+              href={toggleLocale()}
+              className="flex items-center gap-2 text-white hover:text-accent transition-colors"
+              aria-label={locale === 'ar' ? 'Switch to English' : 'التبديل إلى العربية'}
+            >
+              <Languages className="w-5 h-5" />
+              <span className="text-sm font-medium">{locale === 'ar' ? 'EN' : 'AR'}</span>
+            </Link>
+
+            <a
+              href={`/${locale}/contact`}
+              target="_blank"
+              rel="noopener noreferrer"
+              
+              className="btn btn-sm hidden lg:flex items-center justify-center"
+            >
+              {t('hireme')}
+            </a>
+          </div>
+        </div>
+      </div>
+    </motion.header>
+  );
+}
