@@ -9,16 +9,16 @@ function formatEmailHTML(name: string, email: string, message: string): string {
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>New Contact Form Submission</title>
 </head>
-<body style="margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; background-color: #f4f4f5;">
+<body style="margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; background-color: #c4aa91;">
   <table role="presentation" style="width: 100%; border-collapse: collapse;">
     <tr>
       <td align="center" style="padding: 40px 0;">
-        <table role="presentation" style="width: 600px; border-collapse: collapse; background-color: #ffffff; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <table role="presentation" style="width: 600px; border-collapse: collapse; background-color: #252220; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.5);">
           <!-- Header -->
           <tr>
-            <td style="padding: 40px 40px 20px; background: linear-gradient(135deg, #B809C3 0%, #8B06A0 100%); border-radius: 8px 8px 0 0;">
-              <h1 style="margin: 0; color: #ffffff; font-size: 28px; font-weight: 700;">New Contact Message</h1>
-              <p style="margin: 8px 0 0; color: rgba(255,255,255,0.9); font-size: 14px;">You have received a new message from your portfolio contact form</p>
+            <td style="padding: 40px 40px 20px; background: linear-gradient(135deg, #c9b8a3 0%, #a89580 100%); border-radius: 8px 8px 0 0;">
+              <h1 style="margin: 0; color: #f5f1ed; font-size: 28px; font-weight: 700;">New Contact Message</h1>
+              <p style="margin: 8px 0 0; color: #d4cfc9; font-size: 14px;">You have received a new message from your portfolio contact form</p>
             </td>
           </tr>
           
@@ -28,9 +28,9 @@ function formatEmailHTML(name: string, email: string, message: string): string {
               <!-- Name -->
               <table role="presentation" style="width: 100%; border-collapse: collapse; margin-bottom: 24px;">
                 <tr>
-                  <td style="padding: 16px; background-color: #f9fafb; border-left: 4px solid #B809C3; border-radius: 4px;">
-                    <p style="margin: 0 0 4px; color: #6b7280; font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px;">Name</p>
-                    <p style="margin: 0; color: #111827; font-size: 16px; font-weight: 500;">${name}</p>
+                  <td style="padding: 16px; background-color: #2f2b28; border-left: 4px solid #c9b8a3; border-radius: 4px;">
+                    <p style="margin: 0 0 4px; color: #9a9389; font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px;">Name</p>
+                    <p style="margin: 0; color: #f5f1ed; font-size: 16px; font-weight: 500;">${name}</p>
                   </td>
                 </tr>
               </table>
@@ -38,10 +38,10 @@ function formatEmailHTML(name: string, email: string, message: string): string {
               <!-- Email -->
               <table role="presentation" style="width: 100%; border-collapse: collapse; margin-bottom: 24px;">
                 <tr>
-                  <td style="padding: 16px; background-color: #f9fafb; border-left: 4px solid #B809C3; border-radius: 4px;">
-                    <p style="margin: 0 0 4px; color: #6b7280; font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px;">Email</p>
+                  <td style="padding: 16px; background-color: #2f2b28; border-left: 4px solid #c9b8a3; border-radius: 4px;">
+                    <p style="margin: 0 0 4px; color: #9a9389; font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px;">Email</p>
                     <p style="margin: 0;">
-                      <a href="mailto:${email}" style="color: #B809C3; font-size: 16px; font-weight: 500; text-decoration: none;">${email}</a>
+                      <a href="mailto:${email}" style="color: #c9b8a3; font-size: 16px; font-weight: 500; text-decoration: none;">${email}</a>
                     </p>
                   </td>
                 </tr>
@@ -50,9 +50,9 @@ function formatEmailHTML(name: string, email: string, message: string): string {
               <!-- Message -->
               <table role="presentation" style="width: 100%; border-collapse: collapse;">
                 <tr>
-                  <td style="padding: 16px; background-color: #f9fafb; border-left: 4px solid #B809C3; border-radius: 4px;">
-                    <p style="margin: 0 0 8px; color: #6b7280; font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px;">Message</p>
-                    <p style="margin: 0; color: #111827; font-size: 15px; line-height: 1.6; white-space: pre-wrap;">${message}</p>
+                  <td style="padding: 16px; background-color: #2f2b28; border-left: 4px solid #c9b8a3; border-radius: 4px;">
+                    <p style="margin: 0 0 8px; color: #9a9389; font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px;">Message</p>
+                    <p style="margin: 0; color: #f5f1ed; font-size: 15px; line-height: 1.6; white-space: pre-wrap;">${message}</p>
                   </td>
                 </tr>
               </table>
@@ -61,15 +61,16 @@ function formatEmailHTML(name: string, email: string, message: string): string {
           
           <!-- Footer -->
           <tr>
-            <td style="padding: 24px 40px; background-color: #f9fafb; border-radius: 0 0 8px 8px; border-top: 1px solid #e5e7eb;">
-              <p style="margin: 0; color: #6b7280; font-size: 13px; text-align: center;">
+            <td style="padding: 24px 40px; background-color: #252220; border-radius: 0 0 8px 8px; border-top: 1px solid rgba(201, 184, 163, 0.15);">
+              <p style="margin: 0; color: #9a9389; font-size: 13px; text-align: center;">
                 This message was sent from your portfolio contact form on ${new Date().toLocaleDateString('en-US', {
     weekday: 'long',
     year: 'numeric',
     month: 'long',
     day: 'numeric',
     hour: '2-digit',
-    minute: '2-digit'
+    minute: '2-digit',
+    timeZone: 'Asia/Riyadh'
   })}
               </p>
             </td>
@@ -95,7 +96,7 @@ Message:
 ${message}
 
 ---
-Sent on: ${new Date().toLocaleString()}
+Sent on: ${new Date().toLocaleString('en-US', { timeZone: 'Asia/Riyadh' })}
   `.trim();
 }
 
