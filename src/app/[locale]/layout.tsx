@@ -4,7 +4,6 @@ import { notFound } from 'next/navigation';
 import { Metadata } from 'next';
 import { locales } from '@/i18n/routing';
 import { Orbitron, Rajdhani, Aldrich, Noto_Kufi_Arabic } from 'next/font/google';
-import { getDirection } from '@/lib/utils';
 import { Header } from '@/components/layout/Header';
 import { Nav } from '@/components/layout/Nav';
 import { RouteTransition } from '@/components/motion/RouteTransition';
@@ -144,11 +143,6 @@ export async function generateMetadata({
       },
 
     },
-    verification: {
-      google: 'YOUR_GOOGLE_VERIFICATION_CODE',
-      // yandex: 'YOUR_YANDEX_VERIFICATION_CODE',
-      // bing: 'YOUR_BING_VERIFICATION_CODE',
-    },
     appleWebApp: {
       capable: true,
       statusBarStyle: 'black-translucent',
@@ -190,7 +184,7 @@ export default async function LocaleLayout({
         <link rel="preconnect" href="https://www.alidrisy.com" />
 
         {/* Favicon & App Icons */}
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" type="image/x-icon" href="/favicon.ico" />
         <link rel="apple-touch-icon" href="/favicon.ico" />
 
         {/* Canonical URL */}
