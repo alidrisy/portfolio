@@ -97,17 +97,12 @@
         "description": "Led full-stack development using TypeScript, React, and Express.js. Built backend services with Python (FastAPI, Flask), integrated PostgreSQL and MongoDB, and managed CI/CD pipelines."
       },
       {
-        "year": "Jan-Apr 2024",
-        "title": "Software Engineer - Ijar Rental Platform",
-        "description": "Collaborated on a MERN stack car rental application processing 1,000+ monthly transactions. Developed backend infrastructure, built responsive React components, and managed all DevOps tasks."
-      },
-      {
-        "year": "Apr-Aug 2024",
+        "year": "2024",
         "title": "ALX ProDev Back-End Programme",
         "description": "Intensive 4-month professional training on building scalable backend systems, RESTful and GraphQL APIs, Docker containerization, Kubernetes orchestration, and Nginx configuration."
       },
       {
-        "year": "Feb 2025",
+        "year": "2025",
         "title": "Frontend Developer & Consultant - HOMA",
         "description": "Leading frontend development for HomaApp using Next.js and React. Serving as backend and product consultant, guiding architecture improvements, API design, and integration with production systems."
       }

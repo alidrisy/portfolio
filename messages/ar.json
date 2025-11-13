@@ -98,11 +98,6 @@
       },
       {
         "year": "2024",
-        "title": "Software Engineer - منصة إيجار للتأجير",
-        "description": "تعاونت في تطبيق تأجير سيارات MERN يعالج أكثر من 1000 معاملة شهريًا. طورت البنية التحتية الخلفية، بنيت مكونات React متجاوبة، وأدرت جميع مهام DevOps."
-      },
-      {
-        "year": "2024",
         "title": "ALX ProDev Back-End Programme",
         "description": "تدريب احترافي مكثف لمدة 4 أشهر على بناء أنظمة خلفية قابلة للتوسع، RESTful و GraphQL APIs، حاويات Docker، تنسيق Kubernetes، وتكوين Nginx."
       },
