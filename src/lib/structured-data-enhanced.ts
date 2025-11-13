@@ -352,7 +352,7 @@ export function getPageStructuredData(
     inLanguage: locale,
     datePublished: '2024-01-01',
     dateModified: new Date().toISOString(),
-    image: 'https://www.alidrisy.com/og-image.png',
+    image: 'https://www.alidrisy.com/og-image.jpeg',
     isPartOf: {
       '@type': 'WebSite',
       '@id': 'https://www.alidrisy.com#website',
@@ -557,7 +557,7 @@ export function getArticleData(
       '@type': 'Organization',
       '@id': 'https://www.alidrisy.com#organization',
     },
-    image: 'https://www.alidrisy.com/og-image.png',
+    image: 'https://www.alidrisy.com/og-image.jpeg',
     isPartOf: {
       '@type': 'WebSite',
       '@id': 'https://www.alidrisy.com#website',

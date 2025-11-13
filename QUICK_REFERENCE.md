@@ -222,7 +222,7 @@ import {
 | `app/[locale]/layout.tsx` | Structured data integration | 🔴 Update |
 | `app/[locale]/*/page.tsx` | Add page-specific schemas | 🔴 Update (each page) |
 | `app/[locale]/faq/page.tsx` | FAQ page | 🟡 Create (optional) |
-| `public/og-image.png` | Social sharing images | 🟡 Create (optional) |
+| `public/og-image.jpeg` | Social sharing images | 🟡 Create (optional) |
 
 ---
 

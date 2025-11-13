@@ -16,7 +16,7 @@ export const SEO_CONFIG = {
   
   // Default OG image (fallback)
   defaultOGImage: {
-    url: 'https://www.alidrisy.com/og-image.png',
+    url: 'https://www.alidrisy.com/og-image.jpeg',
     width: 1200,
     height: 630,
     alt: 'Abdulrahman Alidrisy - Full Stack Software Engineer',

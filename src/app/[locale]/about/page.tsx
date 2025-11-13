@@ -42,7 +42,7 @@ export async function generateMetadata({
       siteName: 'Abdulrahman Alidrisy Portfolio',
       images: [
         {
-          url: `${baseUrl}/og-image.png`,
+          url: `${baseUrl}/og-image.jpeg`,
           width: 1200,
           height: 630,
           alt: seoMeta.ogTitle,
@@ -56,7 +56,7 @@ export async function generateMetadata({
       card: 'summary_large_image',
       title: seoMeta.ogTitle,
       description: seoMeta.ogDescription,
-      images: [`${baseUrl}/og-image.png`],
+      images: [`${baseUrl}/og-image.jpeg`],
       creator: '@AbdulrahmanAdeb',
     },
     robots: {

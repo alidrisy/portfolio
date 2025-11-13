@@ -24,7 +24,7 @@ export const HOME_PAGE_META = {
     ogDescription:
       'Experienced full-stack developer creating innovative web solutions. React • Next.js • Python • Node.js • DevOps',
     ogUrl: 'https://www.alidrisy.com/en',
-    ogImage: 'https://www.alidrisy.com/og-image.png',
+    ogImage: 'https://www.alidrisy.com/og-image.jpeg',
   },
   ar: {
     title: 'عبدالرحمن الإدريسي - ملف مهندس برمجيات',
@@ -42,7 +42,7 @@ export const HOME_PAGE_META = {
     ogDescription:
       'مهندس برمجيات ذو خبرة يبني حلول ويب مبتكرة. React • Next.js • Python • Node.js • DevOps',
     ogUrl: 'https://www.alidrisy.com/ar',
-    ogImage: 'https://www.alidrisy.com/og-image.png',
+    ogImage: 'https://www.alidrisy.com/og-image.jpeg',
   },
 };
 
@@ -67,7 +67,7 @@ export const ABOUT_PAGE_META = {
     ogDescription:
       'Full-stack engineer with expertise in frontend, backend, databases, and DevOps. Building production-grade web applications.',
     ogUrl: 'https://www.alidrisy.com/en/about',
-    ogImage: 'https://www.alidrisy.com/og-image.png',
+    ogImage: 'https://www.alidrisy.com/og-image.jpeg',
   },
   ar: {
     title: 'عني - عبدالرحمن الإدريسي | مهندس برمجيات',
@@ -85,7 +85,7 @@ export const ABOUT_PAGE_META = {
     ogDescription:
       'مهندس متكامل متخصص في الواجهة الأمامية والخلفية وقواعس البيانات و DevOps. بناء تطبيقات ويب جاهزة للإنتاج.',
     ogUrl: 'https://www.alidrisy.com/ar/about',
-    ogImage: 'https://www.alidrisy.com/og-image.png',
+    ogImage: 'https://www.alidrisy.com/og-image.jpeg',
   },
 };
 
@@ -110,7 +110,7 @@ export const SERVICES_PAGE_META = {
     ogDescription:
       'End-to-end web development services: React, Next.js, Python, Node.js, PostgreSQL, Docker, Kubernetes, and CI/CD pipelines.',
     ogUrl: 'https://www.alidrisy.com/en/services',
-    ogImage: 'https://www.alidrisy.com/og-image.png',
+    ogImage: 'https://www.alidrisy.com/og-image.jpeg',
   },
   ar: {
     title: 'الخدمات - التطوير المتكامل و DevOps',
@@ -128,7 +128,7 @@ export const SERVICES_PAGE_META = {
     ogDescription:
       'خدمات تطوير ويب شاملة: React و Next.js و Python و Node.js و PostgreSQL و Docker و Kubernetes و خطوط CI/CD.',
     ogUrl: 'https://www.alidrisy.com/ar/services',
-    ogImage: 'https://www.alidrisy.com/og-image.png',
+    ogImage: 'https://www.alidrisy.com/og-image.jpeg',
   },
 };
 
@@ -153,7 +153,7 @@ export const PROJECTS_PAGE_META = {
     ogDescription:
       'Portfolio of full-stack applications: HomaApp, Ijar (P2P rentals), Awamer IT services, AudioTube. Real-world implementations.',
     ogUrl: 'https://www.alidrisy.com/en/projects',
-    ogImage: 'https://www.alidrisy.com/og-image.png',
+    ogImage: 'https://www.alidrisy.com/og-image.jpeg',
   },
   ar: {
     title: 'المشاريع - تطبيقات متكاملة و ملف أعمالي',
@@ -171,7 +171,7 @@ export const PROJECTS_PAGE_META = {
     ogDescription:
       'ملف المشاريع المتكاملة: HomaApp و إيجار (تأجير من نظير)، أوامر، أوديو تيوب. تطبيقات عملية جاهزة للإنتاج.',
     ogUrl: 'https://www.alidrisy.com/ar/projects',
-    ogImage: 'https://www.alidrisy.com/og-image.png',
+    ogImage: 'https://www.alidrisy.com/og-image.jpeg',
   },
 };
 
@@ -196,7 +196,7 @@ export const CONTACT_PAGE_META = {
     ogDescription:
       'Reach out for project inquiries, collaboration, or consulting. Remote-friendly, available globally from Saudi Arabia.',
     ogUrl: 'https://www.alidrisy.com/en/contact',
-    ogImage: 'https://www.alidrisy.com/og-image.png',
+    ogImage: 'https://www.alidrisy.com/og-image.jpeg',
   },
   ar: {
     title: 'تواصل - استأجر عبدالرحمن الإدريسي | مهندس برمجيات',
@@ -214,7 +214,7 @@ export const CONTACT_PAGE_META = {
     ogDescription:
       'تواصل لاستفسارات المشاريع أو التعاون أو الاستشارات. متوفر للعمل البعيد من جميع أنحاء العالم.',
     ogUrl: 'https://www.alidrisy.com/ar/contact',
-    ogImage: 'https://www.alidrisy.com/og-image.png',
+    ogImage: 'https://www.alidrisy.com/og-image.jpeg',
   },
 };
 
