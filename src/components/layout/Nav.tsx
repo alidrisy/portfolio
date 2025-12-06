@@ -13,7 +13,7 @@ export function Nav() {
   const t = useTranslations('nav');
   const locale = useLocale();
   const pathname = usePathname();
-  
+
   const navItems = [
     { name: 'home', href: `/${locale}`, icon: HomeIcon },
     { name: 'about', href: `/${locale}/about`, icon: User },
@@ -27,7 +27,7 @@ export function Nav() {
   };
 
   return (
-    <nav className="fixed bottom-2 lg:bottom-8 w-full overflow-hidden z-50">
+    <nav className="fixed bottom-2 lg:bottom-8 w-full z-50">
       <div className="container mx-auto">
         <motion.div
           initial={{ y: 100, opacity: 0 }}
@@ -73,7 +73,7 @@ export function Nav() {
                   </div>
                 </motion.div>
 
-                <span className="absolute z-[100] -top-8 left-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 transition-opacity text-xs whitespace-nowrap bg-black/80 px-2 py-1 rounded">
+                <span className="absolute z-[100] -top-10 left-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-xs font-medium whitespace-nowrap bg-black/90 text-white px-3 py-1.5 rounded-lg pointer-events-none shadow-lg backdrop-blur-sm border border-white/10">
                   {t(item.name)}
                 </span>
               </Link>
