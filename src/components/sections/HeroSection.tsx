@@ -64,7 +64,7 @@ export function HeroSection() {
             >
               <a
                 className={`btn btn-sm flex justify-center  hover:text-primary items-center gap-2 w-full sm:w-auto ${locale === "ar" ? "flex-row-reverse font-kufi" : ""}`}
-                href="/Abdulrahman_Alidrisy_resume.pdf"
+                href="/Abdulrahman_Alidrisy_CV.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 

@@ -1,33 +1,24 @@
 'use client';
 
-import { useTranslations } from 'next-intl';
+import { useLocale, useTranslations } from 'next-intl';
 import { motion } from 'framer-motion';
 import { fadeIn } from '@/lib/motion';
 import { StaggerList, StaggerItem } from '@/components/motion/StaggerList';
 import Link from 'next/link';
-import { Github, ExternalLink, ArrowRight } from 'lucide-react';
+import { Github, ExternalLink, ArrowRight, ArrowLeft } from 'lucide-react';
 import Image from 'next/image';
 
 export function ProjectsFull() {
   const t = useTranslations('projects');
   const tCommon = useTranslations('common');
+  const locale = useLocale();
+  const isArabic = locale === 'ar';
+  const DetailsIcon = isArabic ? ArrowLeft : ArrowRight;
 
-  const projects = [
-    t.raw('list.0'),
-    t.raw('list.1'),
-    t.raw('list.2'),
-    t.raw('list.3'),
-  ];
-
-  // Debug: Log projects data
-  console.log('Projects data:', projects);
+  const projects = t.raw('list') as any[];
 
   // Ensure we have valid projects data
   const validProjects = projects.filter(project => project && typeof project === 'object');
-  
-  if (validProjects.length === 0) {
-    console.warn('No valid projects found');
-  }
 
   return (
     <div className="min-h-screen pt-16 sm:pt-24 lg:pt-32 pb-12 sm:pb-16 lg:pb-20">
@@ -56,15 +47,15 @@ export function ProjectsFull() {
                   whileHover={{ scale: 1.02 }}
                   transition={{ duration: 0.3 }}
                 >
-                  <div className="relative h-[200px] sm:h-[250px] md:h-[300px] overflow-hidden">
+                  <div className="relative aspect-[2/1] overflow-hidden bg-black/40">
                     <Image
                       src={project.image}
                       alt={project.title}
                       fill
-                      className="object-cover transition-transform duration-500 group-hover:scale-110"
+                      className="object-cover transition-transform duration-500 group-hover:scale-105"
                       sizes="(max-width: 640px) 100vw, (max-width: 1024px) 100vw, 50vw"
                     />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent opacity-60 group-hover:opacity-80 transition-opacity" />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-60 group-hover:opacity-80 transition-opacity" />
                   </div>
 
                   <div className="p-5 sm:p-6 md:p-8 flex-1 flex flex-col">
@@ -118,11 +109,11 @@ export function ProjectsFull() {
                         </a>
                       )}
                       <Link
-                        href={`/projects/${project.slug}`}
-                        className="ml-auto text-gradient hover:gap-2 inline-flex items-center gap-1 transition-all text-sm sm:text-base"
+                        href={`/${locale}/projects/${project.slug}`}
+                        className={`${isArabic ? 'mr-auto flex-row-reverse font-kufi' : 'ml-auto'} text-gradient hover:gap-2 inline-flex items-center gap-1 transition-all text-sm sm:text-base`}
                       >
                         <span>{tCommon('details')}</span>
-                        <ArrowRight className="w-3 h-3 sm:w-4 sm:h-4" />
+                        <DetailsIcon className="w-3 h-3 sm:w-4 sm:h-4" />
                       </Link>
                     </div>
                   </div>

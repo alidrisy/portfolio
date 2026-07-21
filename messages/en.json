@@ -13,7 +13,12 @@
     "sending": "Sending...",
     "somethingWentWrong": "Something went wrong",
     "error": "Error",
-    "success": "Success"
+    "success": "Success",
+    "backToProjects": "Back to Projects",
+    "theProblem": "The Problem",
+    "theSolution": "The Solution",
+    "theImpact": "The Impact",
+    "techStack": "Tech Stack"
   },
   "nav": {
     "home": "Home",
@@ -27,16 +32,16 @@
     "name": "Abdulrahman Alidrisy",
     "iAm": "I am a",
     "roles": {
-      "frontend": "Frontend Developer",
-      "backend": "Backend Developer",
+      "frontend": "Product Engineer",
+      "backend": "Full-Stack Engineer",
       "fullstack": "Fullstack Developer"
     },
-    "description": "A dedicated software engineer with a passion for building robust and scalable applications. I strive to create innovative solutions that meet user needs and drive business success."
+    "description": "A Product Engineer and Full-Stack Software Engineer who ships end-to-end products — from architecture and backend systems to polished, production-ready interfaces. I turn ideas into scalable applications that drive real business results."
   },
   "about": {
     "title": "About Me",
-    "subtitle": "Versatile Full Stack Software Engineer with 2+ years of experience delivering end-to-end web applications using modern technologies.",
-    "description": "I specialize in backend development with Python (FastAPI, Flask, Django) and Node.js, combined with strong frontend skills in React, Next.js, and TypeScript. My expertise spans both SQL and NoSQL databases, DevOps practices, and agile methodologies.",
+    "subtitle": "Full-Stack / Product Engineer with 3+ years shipping end-to-end web platforms — from architecture and backend systems to production-ready, revenue-driving interfaces.",
+    "description": "I specialize in backend development with Node.js and Python (FastAPI, Flask, Django), combined with strong frontend skills in React, Next.js, and TypeScript. Beyond code, I own products end-to-end — writing BRDs/PRDs, leading roadmaps, and partnering with marketing and growth teams — across Google Cloud, STC Cloud, and AWS infrastructure.",
     "learnMore": "Learn More",
     "stats": {
       "experience": "Years of Experience",
@@ -44,7 +49,7 @@
       "technologies": "Technologies Mastered",
       "commits": "Code Commits"
     },
-    "fullBio": "Currently, I work as a Frontend Developer and Backend/Product Consultant at HOMA in Riyadh, leading the development of HomaApp — a production-ready luxury property platform built from scratch using Next.js, React, Tailwind CSS, and React Query. I serve as a technical bridge between frontend and backend, advising on architecture improvements, API design, and product strategy to align technical decisions with business goals.",
+    "fullBio": "Currently, I work as Technical Product Manager & Lead Engineer at HOMA in Riyadh, owning the end-to-end product for HomaApp — BRDs, PRDs, user stories, and roadmap — while staying hands-on with the codebase and supervising an 8-person cross-functional team. Alongside HOMA, I run a freelance full-stack practice delivering complete, production platforms for clients including Diraya Law Firm, Caro car rental, and Elite Experts consulting — handling architecture, backend, frontend, and technical SEO end-to-end.",
     "achievements": "Key Achievements",
     "achievementsList": [
       {
@@ -68,43 +73,57 @@
     "expertiseAreas": [
       {
         "category": "Frontend",
-        "skills": "React.js, Next.js, React Native, TypeScript, JavaScript, Tailwind CSS, daisyUI"
+        "skills": "Next.js, React, TypeScript, Tailwind CSS, Motion.dev, i18n (Arabic/English), SSR"
       },
       {
         "category": "Backend",
-        "skills": "Python (FastAPI, Flask, Django), Node.js, Express.js, RESTful APIs, GraphQL"
+        "skills": "Node.js, Express, Python (FastAPI, Flask, Django), REST, GraphQL, PostgreSQL, MongoDB, Redis"
       },
       {
-        "category": "Databases",
-        "skills": "PostgreSQL, MySQL, MongoDB, Redis"
+        "category": "Cloud & DevOps",
+        "skills": "Google Cloud (Cloud Run, Cloud Build, BigQuery, Cloud Storage, VM), STC Cloud, AWS SES, Docker, Kubernetes, GitHub Actions CI/CD, Nginx"
       },
       {
-        "category": "DevOps",
-        "skills": "Docker, Kubernetes, CI/CD, GitHub Actions, Nginx, Linux/Bash"
+        "category": "Integrations",
+        "skills": "WhatsApp Business API, AWS SES, NodeMailer, Firebase, Pusher"
+      },
+      {
+        "category": "Product & Growth",
+        "skills": "Product Management, PRDs/BRDs, User Stories, Roadmaps, SEO, Marketing Automation (MoEngage, Customer.io, CleverTap)"
       }
     ],
     "journey": "My Journey",
     "scrollHint": "Scroll to explore",
     "timeline": [
       {
-        "year": "2023",
-        "title": "ALX Software Engineering Program",
-        "description": "Completed an intensive program focused on algorithms, data structures, system design, and hands-on DevOps applications."
+        "year": "2024",
+        "title": "Software Engineer (MERN) — Ijar",
+        "description": "Jan – Apr 2024, Remote. Built a peer-to-peer car rental platform end-to-end with Express.js, React, and MongoDB, processing 1,000+ monthly transactions."
       },
       {
         "year": "2024",
-        "title": "Software Engineer - Bin Sammar Trading",
-        "description": "Led full-stack development using TypeScript, React, and Express.js. Built backend services with Python (FastAPI, Flask), integrated PostgreSQL and MongoDB, and managed CI/CD pipelines."
-      },
-      {
-        "year": "2024",
-        "title": "ALX ProDev Back-End Programme",
-        "description": "Intensive 4-month professional training on building scalable backend systems, RESTful and GraphQL APIs, Docker containerization, Kubernetes orchestration, and Nginx configuration."
+        "title": "Software Engineer — Bin Sammar Trading & Contracting",
+        "description": "Jun 2024 – Apr 2026, Riyadh. Full-stack development and DevOps: cut API response time 40%, UI load time 35%, deployment time 50%, and held 99.9% uptime; built the production environment on STC Cloud."
       },
       {
         "year": "2025",
-        "title": "Frontend Developer & Consultant - HOMA",
-        "description": "Leading frontend development for HomaApp using Next.js and React. Serving as backend and product consultant, guiding architecture improvements, API design, and integration with production systems."
+        "title": "Frontend Developer & Product Consultant — HOMA",
+        "description": "Feb 2025 – Apr 2026, Riyadh. Built HomaApp web from scratch, progressing from product helper to product ownership."
+      },
+      {
+        "year": "2025",
+        "title": "Backend Developer / DevOps Trainee (ProDev) — ALX Africa",
+        "description": "Apr – Aug 2025, Remote. Intensive professional training on scalable backend systems, REST/GraphQL APIs, Docker containerization, Kubernetes orchestration, and Nginx configuration."
+      },
+      {
+        "year": "2025",
+        "title": "Freelance Full-Stack / Product Engineer",
+        "description": "2025 – Present, Remote/Riyadh. Delivered Diraya, Caro, and Elite Experts end-to-end — architecture, backend, frontend, and technical SEO."
+      },
+      {
+        "year": "2026",
+        "title": "Technical Product Manager & Lead Engineer — HOMA",
+        "description": "Apr 2026 – Present, Riyadh. Leading end-to-end product (BRDs, PRDs, user stories, roadmap) for HomaApp while staying hands-on; supervising an 8-person cross-functional team; partnering with marketing on MoEngage, Customer.io, CleverTap, and TikTok/Google Ads."
       }
     ]
   },
@@ -113,6 +132,14 @@
     "subtitle": "Full-stack development expertise delivering scalable, secure, and high-performance web applications using modern technologies.",
     "processLabel": "Development Process",
     "scrollHint": "Scroll to explore",
+    "cta": {
+      "title": "Have a project in mind?",
+      "subtitle": "Let's build it together. Message me directly on WhatsApp for a free consultation and a fast quote.",
+      "button": "Request a Service now",
+      "serviceButton": "Request Service",
+      "whatsappMessage": "Hello Abdulrahman, I'd like to request your {service} service. Could we discuss the details?",
+      "whatsappGeneral": "Hello Abdulrahman, I'd like to request a service. Could we discuss the details?"
+    },
     "list": [
       {
         "num": "01",
@@ -174,20 +201,62 @@
     "list": [
       {
         "num": "01",
+        "slug": "diraya-law-firm",
+        "category": "Full-Stack",
+        "title": "Diraya Law Firm",
+        "description": "Built the entire bilingual platform for a Riyadh corporate law firm — frontend, backend, and database. Includes a full CMS for legal articles and insights, a consultation-booking flow, and an automated legal-insights newsletter.",
+        "stack": "Next.js, React, Tailwind CSS, Node.js, PostgreSQL, MongoDB, AWS SES, SSR, i18n (Arabic/English)",
+        "image": "/images/Diraiya.png",
+        "live": "https://www.diraiya.sa",
+        "github": "#",
+        "problem": "Diraya, a corporate law firm in Riyadh, needed a bilingual digital presence with a real publishing workflow for legal insights and a reliable way to convert website visitors into booked consultations — not just a static brochure site.",
+        "solution": "Designed and built the platform solo end-to-end: a Next.js/React frontend with Arabic/English SSR, a Node.js backend, and a PostgreSQL/MongoDB data layer. Shipped a full CMS dashboard for publishing legal articles and announcements, a consultation-booking flow, and an automated legal-insights newsletter via AWS SES.",
+        "impact": "Gave the firm a self-service CMS to publish content without developer involvement, a working consultation pipeline, and a bilingual, SEO-optimized site built for performance from day one."
+      },
+      {
+        "num": "02",
         "slug": "homa",
         "category": "Full-Stack",
-        "title": "Homa",
-        "description": "A production-ready luxury property platform built from scratch for HOMA. Features real-time messaging with Pusher, push notifications via Firebase, and a fully responsive design optimized for performance across all devices.",
+        "title": "HomaApp",
+        "description": "A production-ready luxury property platform I architected and built from scratch for HOMA — real-time messaging via Pusher, push notifications via Firebase, and a fully responsive design optimized for performance. I now lead product for HomaApp as Technical Product Manager while staying hands-on, with an 8-person team.",
         "stack": "Next.js, React, TypeScript, Tailwind CSS, React Query, Pusher, Firebase, Docker",
         "image": "/images/homa.png",
         "live": "https://homaapp.com",
         "github": "#",
         "problem": "HOMA needed a modern, scalable luxury property platform that could handle real-time interactions, provide seamless user experience, and be production-ready with optimal performance.",
         "solution": "Built a comprehensive platform using Next.js and React with real-time features via Pusher and Firebase. Implemented mobile-first responsive design, containerized with Docker for scalable deployment, and optimized performance through code splitting and lazy loading.",
-        "impact": "Delivered a production-ready platform with real-time capabilities, improved user engagement through instant notifications, and ensured 40% faster deployment through containerization."
+        "impact": "Delivered a production-ready platform with real-time capabilities, improved user engagement through instant notifications, and 40% faster deployment through containerization. Now leading the product as Technical Product Manager, owning BRDs, PRDs, and roadmap for an 8-person cross-functional team."
       },
       {
-        "num": "02",
+        "num": "03",
+        "slug": "caro-rent",
+        "category": "Full-Stack",
+        "title": "Caro",
+        "description": "End-to-end car-rental system for a Riyadh company: customer booking flow, fleet catalog, seasonal offers, and an admin dashboard with full booking management. WhatsApp Business API automates booking approval/rejection notifications.",
+        "stack": "Next.js, React, Tailwind CSS, Motion.dev, Node.js, WhatsApp Business API, SSR",
+        "image": "/images/caro.png",
+        "live": "https://www.caro-rent.com",
+        "github": "#",
+        "problem": "A Riyadh car-rental company needed a modern booking platform to replace manual, phone-based reservations — plus a way to manage fleet, seasonal pricing, and customer communication without a large ops team.",
+        "solution": "Built the full platform solo: a customer-facing booking flow with fleet catalog and seasonal offers, an admin dashboard for full booking management and admin-controlled dynamic settings, marketing popups, and WhatsApp Business API integration for automated approval/rejection notifications. SEO built Arabic-first.",
+        "impact": "Replaced manual phone bookings with a self-service flow, gave the ops team a single dashboard to manage the entire fleet and bookings, and automated customer notifications end-to-end via WhatsApp."
+      },
+      {
+        "num": "04",
+        "slug": "elite-experts",
+        "category": "Full-Stack",
+        "title": "Elite Experts",
+        "description": "Bilingual platform for a crisis-management, risk, and security consulting firm — frontend and backend, an internal project-management dashboard, advanced technical SEO, and NodeMailer email pipelines for client inquiries.",
+        "stack": "Next.js, Node.js, Tailwind CSS, NodeMailer, SSR, i18n (Arabic/English)",
+        "image": "/images/eliteesperts.png",
+        "live": "https://eliteexperts.sa",
+        "github": "#",
+        "problem": "Elite Experts, a crisis-management and security consulting firm, needed a professional bilingual website plus internal tooling to track client projects, and a technical SEO strategy to be found for high-intent consulting searches.",
+        "solution": "Built the frontend and backend, an internal project-management dashboard for the team, and NodeMailer email pipelines for client and consultation inquiries. Led keyword research and content planning as part of an advanced technical SEO pass.",
+        "impact": "Delivered a bilingual public site backed by internal tooling the team actually uses to track engagements, plus a technical SEO foundation aimed at qualified consulting leads."
+      },
+      {
+        "num": "05",
         "slug": "ijar",
         "category": "Full-Stack",
         "title": "Ijar",
@@ -201,7 +270,7 @@
         "impact": "Simplified the rental process, reduced costs by 30%, and created a new income stream for car owners. The platform processes 1,000+ monthly transactions and has facilitated hundreds of successful rentals."
       },
       {
-        "num": "03",
+        "num": "06",
         "slug": "awamer-website",
         "category": "Full-Stack",
         "title": "Awamer Website Development",
@@ -215,7 +284,7 @@
         "impact": "Delivered a professional, high-performance website that effectively showcases Awamer's services, improves client engagement, and establishes strong online presence in the IT consulting market."
       },
       {
-        "num": "04",
+        "num": "07",
         "slug": "audiotube",
         "category": "Full-Stack",
         "title": "AudioTube",
@@ -254,12 +323,12 @@
   },
   "metadata": {
     "home": {
-      "title": "Abdulrahman Alidrisy - Full-Stack Developer Portfolio",
-      "description": "Welcome to the portfolio of Abdulrahman Alidrisy, an experienced full-stack developer specializing in React, Node.js, and modern web technologies."
+      "title": "Abdulrahman Alidrisy - Product Engineer & Full-Stack Developer",
+      "description": "Welcome to the portfolio of Abdulrahman Alidrisy, a Product Engineer and Full-Stack Developer specializing in React, Next.js, Node.js, and modern web technologies."
     },
     "about": {
       "title": "About - Abdulrahman Alidrisy",
-      "description": "Learn more about Abdulrahman Alidrisy's background, skills, and experience in software engineering and full-stack development."
+      "description": "Learn more about Abdulrahman Alidrisy's background, skills, and experience in product engineering and full-stack development."
     },
     "services": {
       "title": "Services - Abdulrahman Alidrisy",

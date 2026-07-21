@@ -1,7 +1,9 @@
 import { setRequestLocale, getMessages } from 'next-intl/server';
 import { Metadata } from 'next';
 import { ProjectsFull } from '@/components/pages/ProjectsFull';
-import { pageMetadata } from '@/lib/seo-config';
+import { pageMetadata, keywordMap } from '@/lib/seo-config';
+import { StructuredData } from '@/components/seo/StructuredData';
+import { getProjectsPageData, getBreadcrumbList } from '@/lib/structured-data-enhanced';
 
 export async function generateMetadata({
   params,
@@ -15,20 +17,7 @@ export async function generateMetadata({
   return {
     title: seoMeta.title,
     description: seoMeta.description,
-    keywords: [
-      'Software Projects Portfolio',
-      'HomaApp Luxury Property Platform',
-      'Ijar Car Rental Platform',
-      'Awamer Website Development',
-      'AudioTube YouTube Audio',
-      'React Projects',
-      'Next.js Projects',
-      'Full Stack Projects',
-      'MERN Stack Projects',
-      'Python Flask Projects',
-      'مشاريع برمجية',
-      'معرض أعمال',
-    ],
+    keywords: [...keywordMap.projects.en, ...keywordMap.projects.ar],
     alternates: {
       canonical: `${baseUrl}/${locale}/projects`,
       languages: {
@@ -81,5 +70,11 @@ export default async function ProjectsPage({
   const { locale } = await params;
   setRequestLocale(locale);
 
-  return <ProjectsFull />;
+  return (
+    <>
+      <StructuredData data={getProjectsPageData(locale)} />
+      <StructuredData data={getBreadcrumbList(locale, '/projects')} />
+      <ProjectsFull />
+    </>
+  );
 }

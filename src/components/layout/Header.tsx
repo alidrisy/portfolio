@@ -28,7 +28,7 @@ export function Header() {
     >
       <div className="container mx-auto">
         <div className="flex justify-between items-center">
-          <Link href={locale + '/'} className='w-32 -mr-10'>
+          <Link href={`/${locale}`} className='w-32 -mr-10'>
            <Logo className="w-32 h-8 sm:w-52 sm:h-16" />
           </Link>
 
@@ -42,15 +42,12 @@ export function Header() {
               <span className="text-sm font-medium">{locale === 'ar' ? 'EN' : 'AR'}</span>
             </Link>
 
-            <a
+            <Link
               href={`/${locale}/contact`}
-              target="_blank"
-              rel="noopener noreferrer"
-              
               className="btn btn-sm hidden lg:flex items-center justify-center"
             >
               {t('hireme')}
-            </a>
+            </Link>
           </div>
         </div>
       </div>

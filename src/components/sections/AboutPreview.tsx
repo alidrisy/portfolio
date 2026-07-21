@@ -12,7 +12,7 @@ export function AboutPreview() {
     const locale = useLocale()
 
     const stats = [
-        { end: 2, label: t('stats.experience'), prefix: '+' },
+        { end: 3, label: t('stats.experience'), prefix: '+' },
         { end: 38, label: t('stats.repos') },
         { end: 20, label: t('stats.technologies'), prefix: '+' },
         { end: 2700, label: t('stats.commits'), prefix: '+' },

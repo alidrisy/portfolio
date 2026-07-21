@@ -21,38 +21,38 @@ export const SEO_CONFIG = {
 export const pageMetadata = {
   home: {
     en: {
-      title: 'Abdulrahman Alidrisy - Full-Stack Developer Portfolio',
+      title: 'Abdulrahman Alidrisy - Product Engineer & Full-Stack Developer',
       description:
-        'Full Stack Software Engineer specializing in React, Next.js, Python, and Node.js. 2+ years building scalable web apps in Riyadh, Saudi Arabia.',
-      ogTitle: 'Abdulrahman Alidrisy - Full-Stack Developer',
+        'Product Engineer & Full-Stack Developer in Riyadh, Saudi Arabia specializing in Next.js, React, and Node.js. 2+ years shipping production platforms end-to-end for freelance clients and HOMA.',
+      ogTitle: 'Abdulrahman Alidrisy - Product Engineer & Full-Stack Developer',
       ogDescription:
-        'Experienced full-stack developer creating innovative web solutions. React • Next.js • Python • Node.js • DevOps',
+        'Product Engineer & Full-Stack Developer building and owning web platforms end-to-end. Next.js • React • Node.js • Product Management',
     },
     ar: {
-      title: 'عبدالرحمن الإدريسي - ملف مهندس برمجيات',
+      title: 'عبدالرحمن الإدريسي - مهندس منتج ومطور متكامل',
       description:
-        'مهندس برمجيات متكامل متخصص في React و Next.js و Python و Node.js. خبرة +2 سنة في بناء تطبيقات ويب قابلة للتوسع بالرياض.',
-      ogTitle: 'عبدالرحمن الإدريسي - مطور فول ستاك',
+        'مهندس منتج ومطور متكامل بالرياض، السعودية، متخصص في Next.js و React و Node.js. خبرة +2 سنة في بناء منصات إنتاجية كاملة لعملاء فريلانس ولشركة HOMA.',
+      ogTitle: 'عبدالرحمن الإدريسي - مهندس منتج ومطور متكامل',
       ogDescription:
-        'مهندس برمجيات ذو خبرة يبني حلول ويب مبتكرة. React • Next.js • Python • Node.js • DevOps',
+        'مهندس منتج ومطور متكامل يبني منصات ويب ويقودها من الألف إلى الياء. Next.js • React • Node.js • إدارة المنتج',
     },
   },
   about: {
     en: {
-      title: 'About - Abdulrahman Alidrisy | Full Stack Engineer',
+      title: 'About - Abdulrahman Alidrisy | Product Engineer',
       description:
-        'Learn about my 2+ years of experience in full-stack development, expertise in React, Next.js, Python, and DevOps. Currently at HOMA, Riyadh.',
+        'Learn about my 2+ years shipping full-stack products end-to-end with Next.js, React, Node.js, and Python. Currently Technical Product Manager & Lead Engineer at HOMA, Riyadh.',
       ogTitle: 'About Abdulrahman Alidrisy',
       ogDescription:
-        'Full-stack engineer with expertise in frontend, backend, databases, and DevOps. Building production-grade web applications.',
+        'Product Engineer with expertise across frontend, backend, cloud/DevOps, and product management. Building and owning production-grade web applications.',
     },
     ar: {
-      title: 'عني - عبدالرحمن الإدريسي | مهندس برمجيات',
+      title: 'عني - عبدالرحمن الإدريسي | مهندس منتج',
       description:
-        'تعرّف على خبرتي +2 سنة في التطوير المتكامل والتخصص في React و Next.js و Python و DevOps. أعمل حاليًا في HOMA بالرياض.',
+        'تعرّف على خبرتي +2 سنة في بناء منتجات متكاملة من الألف إلى الياء باستخدام Next.js و React و Node.js و Python. أعمل حاليًا كمدير منتج تقني ومهندس رئيسي في HOMA بالرياض.',
       ogTitle: 'معلومات عبدالرحمن الإدريسي',
       ogDescription:
-        'مهندس متكامل متخصص في الواجهة الأمامية والخلفية وقواعس البيانات و DevOps. بناء تطبيقات ويب جاهزة للإنتاج.',
+        'مهندس منتج بخبرة تشمل الواجهة الأمامية والخلفية والسحابة/DevOps وإدارة المنتج. بناء وقيادة تطبيقات ويب جاهزة للإنتاج.',
     },
   },
   services: {
@@ -77,18 +77,18 @@ export const pageMetadata = {
     en: {
       title: 'Projects - Full Stack Applications & Portfolio',
       description:
-        'View 4+ production-ready projects: HomaApp luxury platform, Ijar car rental, Awamer website, AudioTube. Built with Next.js, React, Python, and Node.js.',
+        'View 7 production, live projects: Diraya Law Firm, HomaApp, Caro car rental, Elite Experts, Ijar, Awamer, and AudioTube. Built end-to-end with Next.js, React, Node.js, and Python.',
       ogTitle: 'My Full Stack Projects',
       ogDescription:
-        'Portfolio of full-stack applications: HomaApp, Ijar (P2P rentals), Awamer IT services, AudioTube. Real-world implementations.',
+        'Portfolio of live, production platforms: Diraya, HomaApp, Caro, Elite Experts, Ijar, Awamer, AudioTube. Real-world, end-to-end implementations.',
     },
     ar: {
       title: 'المشاريع - تطبيقات متكاملة و ملف أعمالي',
       description:
-        'شاهد 4+ مشاريع جاهزة للإنتاج: HomaApp لمنصة العقارات، إيجار للتأجير، موقع أوامر، أوديو تيوب. مبنية مع Next.js و React و Python و Node.js.',
+        'شاهد 7 مشاريع حية وجاهزة للإنتاج: دراية للمحاماة، HomaApp، كارو لتأجير السيارات، إيليت إكسبرتس، إيجار، أوامر، وأوديو تيوب. مبنية بالكامل مع Next.js و React و Node.js و Python.',
       ogTitle: 'مشاريعي المتكاملة',
       ogDescription:
-        'ملف المشاريع المتكاملة: HomaApp و إيجار (تأجير من نظير)، أوامر، أوديو تيوب. تطبيقات عملية جاهزة للإنتاج.',
+        'ملف مشاريع حية وجاهزة للإنتاج: دراية، HomaApp، كارو، إيليت إكسبرتس، إيجار، أوامر، أوديو تيوب. تطبيقات عملية كاملة من الألف إلى الياء.',
     },
   },
   contact: {
@@ -118,30 +118,33 @@ export const pageMetadata = {
 export const keywordMap = {
   home: {
     en: [
+      'Product Engineer',
+      'Full-Stack Engineer Saudi Arabia',
+      'Next.js Developer Riyadh',
+      'React Developer KSA',
+      'Freelance Web Developer Saudi Arabia',
       'Full Stack Developer',
       'Software Engineer',
-      'React Developer',
-      'Next.js Developer',
-      'Python Developer',
       'Node.js Developer',
       'Web Developer Saudi Arabia',
       'Riyadh Software Engineer',
       'TypeScript Developer',
-      'DevOps Engineer',
       'freelance developer',
       'hire developer riyadh',
     ],
     ar: [
-      'مهندس برمجيات',
+      'مهندس منتج',
+      'مطور فل ستاك السعودية',
+      'مطور Next.js الرياض',
+      'مطور React السعودية',
+      'مطور ويب فريلانس السعودية',
       'مهندس برمجيات',
       'مطور React',
       'مطور Next.js',
-      'مطور Python',
       'مطور Node.js',
       'مطور ويب السعودية',
       'مهندس البرمجيات الرياض',
       'مطور TypeScript',
-      'مهندس DevOps',
       'مطور فريلانس',
       'استأجر مطور الرياض',
     ],
@@ -188,6 +191,19 @@ export const keywordMap = {
       'Cloud Infrastructure',
       'Database Design',
       'CI/CD Pipeline Setup',
+      'Web Development Services Riyadh',
+      'Web Design Company Saudi Arabia',
+      'Hire Full Stack Developer Riyadh',
+      'Website Development Saudi Arabia',
+      'Web App Developer KSA',
+      'E-commerce Website Development Riyadh',
+      'Freelance Web Developer Riyadh',
+      'Build a Website Saudi Arabia',
+      'Software Development Company Riyadh',
+      'React & Next.js Developer for Hire',
+      'MERN Stack Development Services',
+      'Landing Page Development Saudi Arabia',
+      'WhatsApp Business API Integration',
     ],
     ar: [
       'التطوير المتكامل',
@@ -204,6 +220,19 @@ export const keywordMap = {
       'البنية التحتية السحابية',
       'تصميم قواعد البيانات',
       'إعداد خطوط CI/CD',
+      'تصميم مواقع الرياض',
+      'تصميم مواقع السعودية',
+      'شركة تصميم مواقع الرياض',
+      'برمجة مواقع الرياض',
+      'مطور مواقع الرياض',
+      'تصميم متجر إلكتروني الرياض',
+      'تصميم موقع إلكتروني السعودية',
+      'برمجة تطبيقات ويب السعودية',
+      'مبرمج مواقع فريلانس السعودية',
+      'تطوير مواقع احترافية الرياض',
+      'عمل موقع الكتروني السعودية',
+      'تصميم صفحة هبوط الرياض',
+      'ربط واتساب للأعمال',
     ],
   },
   projects: {
@@ -214,6 +243,9 @@ export const keywordMap = {
       'Web Applications',
       'Project Showcase',
       'Full Stack Projects',
+      'Diraya Law Firm Platform',
+      'Caro Car Rental Platform',
+      'Elite Experts Consulting Platform',
       'React Applications',
       'Next.js Projects',
       'MERN Stack',
@@ -227,6 +259,9 @@ export const keywordMap = {
       'تطبيقات الويب',
       'عرض المشاريع',
       'مشاريع متكاملة',
+      'منصة دراية للمحاماة',
+      'منصة كارو لتأجير السيارات',
+      'منصة إيليت إكسبرتس',
       'تطبيقات React',
       'مشاريع Next.js',
       'مشاريع MERN',

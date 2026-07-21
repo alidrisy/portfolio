@@ -14,7 +14,7 @@ export function AboutFull() {
   const locale = useLocale()
 
   const stats = [
-    { end: 2, label: t('stats.experience'), prefix: '+' },
+    { end: 3, label: t('stats.experience'), prefix: '+' },
     { end: 38, label: t('stats.repos') },
     { end: 20, label: t('stats.technologies'), prefix: '+' },
     { end: 2700, label: t('stats.commits'), prefix: '+' },
@@ -175,7 +175,7 @@ export function AboutFull() {
           className="flex flex-col sm:flex-row gap-6 justify-center items-center"
         >
           <a
-            href="/Abdulrahman_Alidrisy_resume.pdf"
+            href="/Abdulrahman_Alidrisy_CV.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="btn btn-lg flex items-center gap-2"

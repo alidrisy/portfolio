@@ -35,13 +35,14 @@ export const personStructuredData = {
   name: 'Abdulrahman Alidrisy',
   alternateName: ['Abdo Alidrisy', 'عبدالرحمن الإدريسي'],
   jobTitle: [
+    'Technical Product Manager',
+    'Product Engineer',
     'Full Stack Software Engineer',
     'Frontend Developer',
     'Backend Developer',
-    'DevOps Engineer',
   ],
   description:
-    'Full Stack Software Engineer with 2+ years of professional experience building scalable web applications using React, Next.js, Python, and Node.js. Based in Riyadh, Saudi Arabia.',
+    'Product Engineer and Full Stack Software Engineer with 2+ years of professional experience shipping production web platforms end-to-end using Next.js, React, Node.js, and Python. Currently Technical Product Manager & Lead Engineer at HOMA. Based in Riyadh, Saudi Arabia.',
   url: 'https://www.alidrisy.com',
   image: 'https://www.alidrisy.com/avatar.png',
   email: 'a.alidrisy6@gmail.com',
@@ -76,6 +77,7 @@ export const personStructuredData = {
     },
   ],
   knowsAbout: [
+    'Product Management',
     'Full Stack Web Development',
     'Frontend Development',
     'React.js',
@@ -92,12 +94,17 @@ export const personStructuredData = {
     'Redis',
     'Docker',
     'Kubernetes',
+    'Google Cloud Platform',
+    'STC Cloud',
+    'AWS SES',
     'DevOps',
     'CI/CD',
     'GitHub Actions',
     'Nginx',
     'REST APIs',
     'GraphQL',
+    'WhatsApp Business API',
+    'Marketing Automation',
     'System Design',
     'Web Performance Optimization',
     'UI/UX Design',
@@ -129,12 +136,35 @@ export const personStructuredData = {
   workExample: [
     {
       '@type': 'SoftwareSourceCode',
+      name: 'Diraya Law Firm - Legal Platform & Knowledge Hub',
+      description:
+        'Bilingual platform for a Riyadh corporate law firm with a full CMS for legal insights, consultation booking, and an automated newsletter. Built solo end-to-end with Next.js, Node.js, and PostgreSQL/MongoDB.',
+      url: 'https://www.diraiya.sa',
+      programmingLanguage: ['TypeScript', 'JavaScript'],
+    },
+    {
+      '@type': 'SoftwareSourceCode',
       name: 'HomaApp - Luxury Property Platform',
       description:
         'Production-ready luxury property platform built with Next.js, React, and TypeScript. Features real-time messaging, push notifications, and comprehensive responsive design.',
       url: 'https://homaapp.com',
       programmingLanguage: ['TypeScript', 'Python'],
-      codeRepository: 'https://github.com/alidrisy/homaapp',
+    },
+    {
+      '@type': 'SoftwareSourceCode',
+      name: 'Caro - Car Rental Booking Platform',
+      description:
+        'End-to-end car-rental platform with customer booking, fleet management, and an admin dashboard, integrated with the WhatsApp Business API for automated notifications.',
+      url: 'https://www.caro-rent.com',
+      programmingLanguage: ['TypeScript', 'JavaScript'],
+    },
+    {
+      '@type': 'SoftwareSourceCode',
+      name: 'Elite Experts - Consulting Firm Platform',
+      description:
+        'Bilingual platform for a crisis-management and security consulting firm, with an internal project-management dashboard and technical SEO.',
+      url: 'https://eliteexperts.sa',
+      programmingLanguage: ['TypeScript', 'JavaScript'],
     },
     {
       '@type': 'SoftwareSourceCode',
@@ -460,6 +490,92 @@ export function getProjectsPageData(locale: string) {
     author: {
       '@type': 'Person',
       '@id': 'https://www.alidrisy.com#person',
+    },
+    isPartOf: {
+      '@type': 'WebSite',
+      '@id': 'https://www.alidrisy.com#website',
+    },
+  };
+}
+
+/**
+ * SERVICES PAGE - Enhanced
+ * ProfessionalService + OfferCatalog so search engines and AI overviews
+ * understand every service offered, who provides it, where, and how to reach out.
+ */
+export function getServicesStructuredData(
+  locale: string,
+  services: Array<{ title: string; description: string }>
+) {
+  const isArabic = locale === 'ar';
+  const url = `https://www.alidrisy.com/${locale}/services`;
+
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'ProfessionalService',
+    '@id': `${url}#service`,
+    name: isArabic
+      ? 'خدمات تطوير الويب المتكامل - عبدالرحمن الإدريسي'
+      : 'Full-Stack Web Development Services - Abdulrahman Alidrisy',
+    description: isArabic
+      ? 'خدمات تطوير ويب متكاملة في الرياض والسعودية: تطوير الواجهة الأمامية والخلفية، تصميم واجهات برمجية وقواعد بيانات، وبنية تحتية سحابية و DevOps.'
+      : 'End-to-end web development services in Riyadh, Saudi Arabia: frontend and backend development, API and database architecture, and cloud/DevOps infrastructure.',
+    url,
+    image: 'https://www.alidrisy.com/og-image.jpeg',
+    inLanguage: locale,
+    priceRange: '$$',
+    telephone: '+966571010226',
+    areaServed: [
+      { '@type': 'Country', name: 'Saudi Arabia' },
+      { '@type': 'City', name: 'Riyadh' },
+      { '@type': 'Country', name: 'United Arab Emirates' },
+      { '@type': 'Country', name: 'Kuwait' },
+      { '@type': 'Country', name: 'Qatar' },
+      { '@type': 'Country', name: 'Bahrain' },
+      { '@type': 'Country', name: 'Oman' },
+    ],
+    provider: {
+      '@type': 'Person',
+      '@id': 'https://www.alidrisy.com#person',
+    },
+    availableChannel: {
+      '@type': 'ServiceChannel',
+      serviceUrl: 'https://wa.me/966571010226',
+      availableLanguage: ['English', 'Arabic'],
+      serviceLocation: {
+        '@type': 'Place',
+        name: 'Riyadh, Saudi Arabia',
+      },
+    },
+    contactPoint: {
+      '@type': 'ContactPoint',
+      telephone: '+966571010226',
+      contactType: 'Sales',
+      contactOption: 'TollFree',
+      availableLanguage: ['English', 'Arabic'],
+      areaServed: ['SA', 'AE', 'KW', 'QA', 'BH', 'OM'],
+    },
+    hasOfferCatalog: {
+      '@type': 'OfferCatalog',
+      name: isArabic ? 'كتالوج الخدمات' : 'Services Catalog',
+      itemListElement: services.map((service, index) => ({
+        '@type': 'Offer',
+        position: index + 1,
+        itemOffered: {
+          '@type': 'Service',
+          name: service.title,
+          description: service.description,
+          serviceType: service.title,
+          provider: {
+            '@type': 'Person',
+            '@id': 'https://www.alidrisy.com#person',
+          },
+          areaServed: {
+            '@type': 'Country',
+            name: 'Saudi Arabia',
+          },
+        },
+      })),
     },
     isPartOf: {
       '@type': 'WebSite',

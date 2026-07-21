@@ -101,10 +101,13 @@ export function ContactFull() {
             className="bg-white/5 backdrop-blur-sm rounded-xl sm:rounded-2xl p-4 sm:p-6 md:p-8 space-y-4 sm:space-y-6"
           >
             <div>
+              <label htmlFor="contact-name" className="sr-only">{t('form.name')}</label>
               <motion.input
+                id="contact-name"
                 type="text"
                 name="name"
                 placeholder={t('form.name')}
+                aria-label={t('form.name')}
                 value={formState.name}
                 onChange={(e) => setFormState({ ...formState, name: e.target.value })}
                 onFocus={() => setIsFocused({ ...isFocused, name: true })}
@@ -116,10 +119,13 @@ export function ContactFull() {
             </div>
 
             <div>
+              <label htmlFor="contact-email" className="sr-only">{t('form.email')}</label>
               <motion.input
+                id="contact-email"
                 type="email"
                 name="email"
                 placeholder={t('form.email')}
+                aria-label={t('form.email')}
                 value={formState.email}
                 onChange={(e) => setFormState({ ...formState, email: e.target.value })}
                 onFocus={() => setIsFocused({ ...isFocused, email: true })}
@@ -131,9 +137,12 @@ export function ContactFull() {
             </div>
 
             <div>
+              <label htmlFor="contact-message" className="sr-only">{t('form.message')}</label>
               <motion.textarea
+                id="contact-message"
                 name="message"
                 placeholder={t('form.message')}
+                aria-label={t('form.message')}
                 value={formState.message}
                 onChange={(e) => setFormState({ ...formState, message: e.target.value })}
                 onFocus={() => setIsFocused({ ...isFocused, message: true })}

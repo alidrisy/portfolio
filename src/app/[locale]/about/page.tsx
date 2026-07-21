@@ -1,7 +1,9 @@
 import { setRequestLocale, getMessages } from 'next-intl/server';
 import { Metadata } from 'next';
 import { AboutFull } from '@/components/pages/AboutFull';
-import { pageMetadata } from '@/lib/seo-config';
+import { pageMetadata, keywordMap } from '@/lib/seo-config';
+import { StructuredData } from '@/components/seo/StructuredData';
+import { getAboutPageData, getBreadcrumbList } from '@/lib/structured-data-enhanced';
 
 export async function generateMetadata({
   params,
@@ -15,18 +17,7 @@ export async function generateMetadata({
   return {
     title: seoMeta.title,
     description: seoMeta.description,
-    keywords: [
-      'About Abdulrahman Alidrisy',
-      'Software Engineer Background',
-      'Full Stack Developer Experience',
-      'ALX Software Engineering',
-      'HOMA Developer',
-      'Bin Sammar Software Engineer',
-      'React Developer Experience',
-      'Python Developer Experience',
-      'عن عبدالرحمن الإدريسي',
-      'خبرة مهندس برمجيات',
-    ],
+    keywords: [...keywordMap.about.en, ...keywordMap.about.ar],
     alternates: {
       canonical: `${baseUrl}/${locale}/about`,
       languages: {
@@ -79,5 +70,11 @@ export default async function AboutPage({
   const { locale } = await params;
   setRequestLocale(locale);
 
-  return <AboutFull />;
+  return (
+    <>
+      <StructuredData data={getAboutPageData(locale)} />
+      <StructuredData data={getBreadcrumbList(locale, '/about')} />
+      <AboutFull />
+    </>
+  );
 }

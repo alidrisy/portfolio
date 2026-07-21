@@ -12,7 +12,7 @@ export function ProjectsPreview() {
   const tCommon = useTranslations('common');
   const locale = useLocale();
 
-  const projects = [t.raw('list.0'), t.raw('list.1')].slice(0, 2);
+  const projects = (t.raw('list') as any[]).slice(0, 2);
 
   return (
     <section id="projects" className="section">

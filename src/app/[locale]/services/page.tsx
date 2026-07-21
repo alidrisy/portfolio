@@ -1,7 +1,13 @@
-import { setRequestLocale, getMessages } from 'next-intl/server';
+import { setRequestLocale, getTranslations } from 'next-intl/server';
 import { Metadata } from 'next';
 import { ServicesFull } from '@/components/pages/ServicesFull';
-import { pageMetadata } from '@/lib/seo-config';
+import { pageMetadata, keywordMap } from '@/lib/seo-config';
+import { StructuredData } from '@/components/seo/StructuredData';
+import {
+  getPageStructuredData,
+  getBreadcrumbList,
+  getServicesStructuredData,
+} from '@/lib/structured-data-enhanced';
 
 export async function generateMetadata({
   params,
@@ -15,20 +21,7 @@ export async function generateMetadata({
   return {
     title: seoMeta.title,
     description: seoMeta.description,
-    keywords: [
-      'Full Stack Development Services',
-      'Frontend Development React Next.js',
-      'Backend Development Python Node.js',
-      'API Development RESTful GraphQL',
-      'Database Architecture PostgreSQL MongoDB',
-      'DevOps Services Docker Kubernetes',
-      'CI/CD Pipeline Setup',
-      'Web Development Services Saudi Arabia',
-      'Software Development Riyadh',
-      'خدمات تطوير ويب',
-      'تطوير تطبيقات',
-      'خدمات برمجة',
-    ],
+    keywords: [...keywordMap.services.en, ...keywordMap.services.ar],
     alternates: {
       canonical: `${baseUrl}/${locale}/services`,
       languages: {
@@ -80,6 +73,21 @@ export default async function ServicesPage({
 }) {
   const { locale } = await params;
   setRequestLocale(locale);
+  const seoMeta = pageMetadata.services[locale as keyof typeof pageMetadata.services];
 
-  return <ServicesFull />;
+  const t = await getTranslations({ locale, namespace: 'services' });
+  const services = (t.raw('list') as Array<{ title: string; description: string }>).map(
+    ({ title, description }) => ({ title, description })
+  );
+
+  return (
+    <>
+      <StructuredData
+        data={getPageStructuredData(locale, 'services', seoMeta.title, seoMeta.description, 'WebPage')}
+      />
+      <StructuredData data={getServicesStructuredData(locale, services)} />
+      <StructuredData data={getBreadcrumbList(locale, '/services')} />
+      <ServicesFull />
+    </>
+  );
 }

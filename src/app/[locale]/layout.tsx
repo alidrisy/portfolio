@@ -184,16 +184,25 @@ export default async function LocaleLayout({
         <link rel="preconnect" href="https://www.alidrisy.com" />
 
         {/* Favicon & App Icons */}
+        <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+        {/* NOTE: /favicon.svg (from the RealFaviconGenerator export) is a 2.8MB
+            base64-encoded PNG wrapped in an <svg> tag, not real vector art —
+            linking it would ship a ~2.8MB request on every page load, which
+            fights the Core Web Vitals work elsewhere in this pass. Using the
+            existing small (1KB) real vector icon.svg instead for the same slot. */}
         <link rel="icon" type="image/svg+xml" href="/icon.svg" />
-        <link rel="apple-touch-icon" href="/icon.svg" />
+        <link rel="shortcut icon" href="/favicon.ico" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+        {/* The PWA manifest itself is served by src/app/manifest.ts (Next.js
+            auto-injects its own <link rel="manifest"> for that route) — it's
+            been updated to use these same real PNG icons, so we don't also link
+            /site.webmanifest here, which would create two competing manifests. */}
 
-        {/* Canonical URL */}
-        <link rel="canonical" href={`https://www.alidrisy.com/${locale}`} />
-
-        {/* Hreflang Tags for Internationalization */}
-        <link rel="alternate" hrefLang="en" href="https://www.alidrisy.com/en" />
-        <link rel="alternate" hrefLang="ar" href="https://www.alidrisy.com/ar" />
-        <link rel="alternate" hrefLang="x-default" href="https://www.alidrisy.com" />
+        {/* Canonical URL and hreflang tags are route-specific and are emitted
+            per page via each page's generateMetadata (alternates.canonical /
+            alternates.languages) — do not hardcode them here, or every page
+            would emit two conflicting canonical/hreflang tags pointing at the
+            locale root instead of the actual current route. */}
       </head>
       <body
         className={`${orbitron.variable} ${rajdhani.variable} ${aldrich.variable} ${kufi.variable} antialiased overflow-x-hidden`}
